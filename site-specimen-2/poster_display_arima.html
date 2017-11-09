@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="UTF-8">
+	<title>Arima Madurai</title>
+	<link rel="stylesheet" type="text/css" href="layout.css"/>
+	<script src="jquery-1.11.3.js" type="text/javascript"></script> <!--script-->
+	<script src="script.js" type="text/javascript"> </script>
+	</head>
+
+<body>
+
+
+<div class="conteneur">
+	<div class="menu-top">
+		<b><a href="home.html">Home </a></b> 
+		<b><a href="monospace.html"> Monospace</a></b> 
+		<b> <a href="fantasy.html">Fantaisie </a></b> 
+		<b><a href="serif.html"> Serif </a></b>
+		<b><a href="sansserif.html">Sans Serif </a></b> 
+		<b><font color="ff4f00"><a href="display.html"> Display</a></font></b>
+	</div>
+<div class="nom-typo"><p>Bevan</p></div>
+<a href="img/poster_display.pdf" target="_blank">Download Poster</a>
+
+<a href="webfont/arimamadurai-extralight-webfont.ttf">Download font</a>
+</div>
+	<div id="centered">
+	<img class="poster-specimen" src="img/poster_arima.png"alt="Arima Madurai">
+</div>
+</div><!-- fin conteneur -->
+
+
+
+
+
+
+<script>
+	$('.outil-italic').click(function() {
+	    $(this).parent('.outil').siblings('.typo-contenu').css('font-style','italic');
+	});
+	$('.outil-bold').click(function() {
+	    $(this).parent('.outil').siblings('.typo-contenu').css('font-weight','bold');
+	});
+</script>
+
+</body>
+</html>

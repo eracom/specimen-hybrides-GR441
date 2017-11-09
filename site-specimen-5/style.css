@@ -1,0 +1,545 @@
+/* réinitialisations de base, ne pas toucher */
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+
+body {
+    font-family: 'poppinssemibold_italic';
+    font-weight: normal; 
+}
+
+a, a:link, a:active, a:visited, a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.titre {
+    text-align: center;
+    margin-top: 40vh;
+    font-size: 50px;
+}
+
+/* COUCHES */
+.top {
+  z-index: 2; 
+  position: relative;
+ }
+.bottom {
+  z-index: 1;
+  position: relative;
+}
+
+.paragraph .accueil-img {
+    width: 100%;
+}
+
+.bagnard-1 {
+    position: absolute;
+    top:56px;
+    left:683px;
+    width:400px;
+    font-family: 'Bagnard';
+    font-size: 40px;
+}
+
+.bagnard-2 {
+    position: absolute;
+    top:558px;
+    left:578px;
+    width:400px;
+    font-family: 'Bagnard';
+    font-size: 40px;
+}
+
+.Onze-1 {
+    position: absolute;
+    top:66px;
+    left:80px;
+    width:400px;
+    font-family: 'onzethin';
+    font-size: 40px;
+}
+
+.Onze-2 {
+    position: absolute;
+    top:164px;
+    left:840px;
+    width:400px;
+    font-family: 'onzethin';
+    font-size: 40px;
+}
+
+.Poppins-1 {
+    position: absolute;
+    top:111px;
+    left:384px;
+    width:400px;
+    font-family: 'poppinsblack_italic';
+    font-size: 40px;
+}
+
+.Poppins-2 {
+    position: absolute;
+    top:557px;
+    left:1128px;
+    width:400px;
+    font-family: 'poppinsregular';
+    font-size: 40px;
+}
+
+.Sporting-1 {
+    position: absolute;
+    top:398px;
+    left:220px;
+    width:400px;
+    font-family: 'Sporting Grotesque';
+    font-size: 40px;
+}
+
+.Sporting-2 {
+    position: absolute;
+    top:114px;
+    left:1167px;
+    width:400px;
+    font-family: 'Sporting Grotesque';
+    font-size: 40px;
+}
+.nom-typo {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    font-family: 'ocramedium';
+    background-color: white;
+    font-size: 12px;
+}
+.agrandir {
+    position: absolute;
+    top: 10;
+    right: 0px;
+    font-family: 'ocramedium';
+    font-size: 35px;
+    background-color: white;
+}
+.diminuer {
+    position: absolute;
+    top: 10;
+    right: 0px;
+    font-family: 'ocramedium';
+    font-size: 12px;
+    background-color: white;
+    z-index: 10000px
+}
+.agrandi {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+
+
+h2 {
+    font-size: 30px;
+    line-height: 35px;
+}
+.meme-classe {
+    height: 680px;
+    width: 1060px;
+    background-color: #ffdfed;
+    position: absolute;
+    top: 82px;
+    left: 320px;
+}
+.bloc-gauche {
+    position: absolute;
+    font-size: 104px;
+    line-height: 94px;
+    margin: 20px;
+    float: left;
+}
+.bloc-bas {
+    font-size: 25px;
+    line-height: 30px;
+    margin: 20px;
+    position: absolute; 
+    background-color: white;
+    top:500px;
+    left:650px;
+    -webkit-animation: shake 0.9s ease-in-out 0.05s infinite alternate;
+}
+.bloc-droite {
+    position: absolute;
+    left:600px;
+    font-size: 19px;
+    line-height: 22px;
+    margin: 20px;
+    float: left;
+}
+.bloc-bas p {
+    margin: 20px; 
+}
+.meme-classe1 {
+    height: 680px;
+    width: 1060px;
+    background-color: #FF8000;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+.bloc-gauche1 {
+    font-size: 35px;
+    line-height: 29px;
+    margin: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1060px;
+    text-align: center;
+}
+.bloc-image1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -130px;
+    margin-top: -95px;
+    height: 159px; 
+    width: 283px;
+ }
+
+
+h3 {
+    position: absolute;
+    font-size: 210px;
+    margin-left: -120px;
+    margin-top: 200px;
+}
+.meme-classe2 {
+    height: 680px;
+    width: 1060px;
+    background-color: #F9F9F9;
+    position: absolute;
+    top: 40px;
+    left: 460px;
+}
+.bloc-gauche2 {
+    font-size: 70px;
+    line-height: 70px;
+    margin: 20px;
+    float: left;
+}
+.bloc-texte2 {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 10px;
+    position: absolute;
+}
+.colonne4 {
+    width: 33%;
+    float: left;
+}
+
+
+h4 {
+    position: absolute;
+    font-size: 65px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family:'poppinsmedium';
+}
+
+h5 {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 33px;
+    margin-top: 115px;
+    line-height: 25px;
+    font-family: 'poppinslight';
+    }
+
+ h6 {
+    position: absolute;
+    font-size: 9px;
+    margin-left: 715px;
+    margin-top: 644px;
+    line-height: 10px;
+    font-family: 'poppinsextralight';
+    }
+
+ h1 {
+    position: absolute;
+    font-size: 25px;
+    line-height: 25px;
+    margin-left: 470px;
+    margin-top: 280px;
+    text-align: center;
+    font-family: 'poppinslight';
+    }
+
+
+.meme-classe3 {
+    height: 680px;
+    width: 1060px;
+    background-color: #F9F9F9;
+    position: absolute;
+    top: 80px;
+    left: 260px;
+
+}
+.colonne1 {
+	font-family: 'poppinsregular';
+    width: 30%;
+    float: left;
+    margin-right: 2%;
+}
+
+.colonne2 {
+	font-family: 'poppinsregular';
+    width: 30%;
+    margin-top: -111px;
+    float: left;
+    margin-right: 2%;
+}
+
+.colonne3 {
+	font-family: 'poppinsregular';
+    width: 30%;
+    margin-top: -111px;
+    float: left;
+    margin-right: 2%;
+}
+
+
+.bloc-texte3 {
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 100px;
+    margin-top: 200px;
+    position: absolute;
+    text-align: justify;
+}
+
+.poster{
+	z-index: 10000000;
+}
+
+.meme-classe4 {
+    height: 680px;
+    width: 1060px;
+    background-color: white;
+    position: absolute;
+    top: 111px;
+    left: 398px;
+    overflow: hidden;
+}   
+
+.bloc-haut1 {
+    font-size: 20px;
+    line-height: 22px;
+    position: absolute;
+    padding: 15px;
+    top: 0px;
+    right: 0px;
+    width: 519px;
+    background-color: yellow;
+  }  
+  
+
+.sporting-grotesque-titre {
+    font-size: 160px;
+    margin-left: -75px;
+    line-height: 110px;
+    position: absolute;
+    top: 210px;
+    left: 0px;
+    color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    text-stroke-width: 3px;
+    text-stroke-color: black;
+}
+
+.bloc-bleu-vide {
+    background-color: blue;
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    width: 519px;
+    height: 750px;
+}
+.IAM {
+    font-size: 129px;
+    position: absolute;
+    top: 50px;
+    right: -88px;
+    color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: red;
+    text-stroke-width: 3px;
+    text-stroke-color: white;
+    transform : rotate(90deg);
+ }
+
+
+.bloc-bas-blanc {
+    font-size: 20px;
+    line-height: 22px;
+    background-color: white;
+    position: absolute;
+    padding: 20px;
+    padding-top: 20px;
+    top: 344px;
+    right: 0px;
+    height: 130px;
+    width: 850px;
+
+}
+
+.bloc-rouge {
+    font-size: 11px;
+    line-height: 12px;
+    background-color: red;
+    position: absolute;
+    padding: 20px;
+    padding-top: 35px;
+    padding-right: 10px;
+    top: 340px;
+    left: 0px;
+    height: 140px;
+    width: 1060px;
+    
+    }
+ .image { 
+ 	top: 340px;
+    left: 40px;
+    height: 50%;
+    width: 51%;
+
+
+}
+
+.karaoke {
+    display: block;
+
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: fixed;
+    top: 0px;
+    vertical-align: baseline;
+    width: 1418px;
+    z-index: 5;
+    font-family:'ocramedium';
+    font-size: 15px;
+    /*
+    border-bottom: 2px solid black;
+    height: 30px;
+    font-size: 25px;
+    */
+    height: 70px;
+    font-size: 35px;
+    color: white;
+    -webkit-text-stroke-width: 1.9px; 
+    -webkit-text-stroke-color: black; 
+    text-stroke-width: 3px; 
+    text-stroke-color: black;
+    }
+
+    .bouton-t {
+    position: absolute;
+    top: 13px;
+    right: 85px;
+    font-family: 'ocramedium';
+    font-size: 14px;
+    background-color: lightgrey;
+    z-index: 10000px;
+    padding: 3px;
+    }
+
+    .bouton-p {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    font-family: 'ocramedium';
+    font-size: 14px;
+    background-color: lightgrey;
+    z-index: 10000px;
+    padding: 3px;
+    }
+
+/* RESPONSIVE */
+/* ÉCRAN SEULEMENT */
+@media screen {
+    .print-only {
+        display: none;
+    }
+}
+
+@-webkit-keyframes shake {
+ from {
+    -webkit-transform: rotate(15deg);
+ }
+ to {
+   -webkit-transform-origin:center center;
+   -webkit-transform: rotate(-15deg);
+ }
+
+}
+
+/* ÉCRAN (VALEURS MINIMUM) */
+@media screen and (min-width: 480px) {
+
+}
+/* ÉCRAN (VALEURS MAXIMUM) */
+@media screen and (max-width: 480px) {
+    .titre {
+        color: red;
+    }
+}
+
+/* IMPRESSION */
+
+@media print {
+    .titre {
+        color: green;
+    }
+    .screen-only {
+        display: none;
+    }
+    .accueil-img {
+    	display: none;
+    }
+    .bouton-p{
+    	display: none;
+    }
+    .bouton-t{
+    	display: none;
+    }
+    .diminuer {
+    	display: none; 
+    }
+    .poster {
+    transform : rotate(90deg);
+    top: 20px;
+    left: 400px;
+    }
+}
+
+@page {
+    size: 210mm 297mm;
+    margin: none;
+}

@@ -1,0 +1,210 @@
+<!-- http://dribbble.com/shots/225872-Colour-Sliders -->
+<!-- <!DOCTYPE html> -->
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>NO BORDERS</title>
+    <link rel="stylesheet" href="../menu.css">
+    <link rel="stylesheet" href="style-trirong.css">
+    <link rel="stylesheet" href="scripts/jquery-ui.css">
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/jquery-1.9.1.js"></script>
+    <script src="scripts/jquery-ui-1.9.2.custom.js"></script>
+    <script src="scripts/jquery-ui.js"></script>
+    <script src="scripts/slider.js"></script>
+  </head>
+  <body>
+
+
+    <div class="outils">
+
+    <div class="sidebar1">
+
+        <a href="../index.html">HOME</a> 
+
+        <br>
+
+        FONT SIZE <div class="plus typo-plus">
+        +
+        </div>
+        <div class="moins typo-moins">
+        —
+        </div>
+
+        <br>
+
+        SPACING <div class="plus interlettrage-plus">
+        +
+        </div>
+        <div class="moins interlettrage-moins">
+        —
+        </div>
+
+          <div class="menu">STYLES</div>
+          <ul class="sous-menu">
+            <li class="outil-regular">REGULAR</li>
+            <li class="outil-italic">ITALIC</li>
+            <li class="outil-black">BLACK</li>
+            <li class="outil-blackitalic">BLACK ITALIC</li>
+            <li class="outil-bold">BOLD</li>
+            <li class="outil-bolditalic">BOLD ITALIC</li>
+          </ul>
+
+          <a href="fonts/playfairdisplay">GET THE FONT</a>
+
+          <br>
+
+          <a href="javascript:window.print()">PRINT IT</a>
+
+
+
+     </div>
+
+
+    </div><!-- FIN OUTILS -->
+    <div class="poster">
+
+
+
+        <textarea class="containerSlider case-grille glissable textarea-1" spellcheck="false">ค</textarea>
+        <textarea class="containerSlider case-grille glissable textarea-2" spellcheck="false"></textarea>
+        <textarea class="containerSlider case-grille glissable textarea-4" spellcheck="false"></textarea>
+        <textarea class="containerSlider case-grille glissable textarea-5" spellcheck="false">
+            MONDAY/จันทร์
+            TUESDAY/อังคาร 
+            WEDNESDAY/วันพุธ
+            THURSDAY/วันพฤหัสบดี   
+        </textarea>
+        <textarea class="containerSlider case-grille glissable textarea-6" spellcheck="false">
+            FRIDAY/วันศุกร์
+            SATURDAY/เสาร์ 
+            SUNDAY/วันอาทิตย์
+        </textarea>
+        <textarea class="containerSlider case-grille glissable textarea-7" spellcheck="false">สัปดาห์</textarea>
+
+    </div>
+
+    <div class="poster">
+        
+
+        <textarea class="containerSlider case-grille glissable textarea-8" spellcheck="false">abcd</textarea>
+        <textarea class="containerSlider case-grille glissable textarea-9" spellcheck="false">ท่าที</textarea>
+        <textarea class="containerSlider case-grille glissable textarea-10" spellcheck="false"></textarea>
+        <textarea class="containerSlider case-grille glissable textarea-11" spellcheck="false"></textarea>
+        <textarea class="containerSlider case-grille glissable textarea-12" spellcheck="false"></textarea>
+        <textarea class="containerSlider case-grille glissable textarea-13" spellcheck="false"></textarea>
+        <textarea class="containerSlider case-grille glissable textarea-14" spellcheck="false"></textarea>
+        <textarea class="containerSlider case-grille glissable textarea-15" spellcheck="false"></textarea>
+        <textarea class="containerSlider case-grille glissable textarea-16" spellcheck="false"></textarea>
+        <textarea class="containerSlider case-grille glissable textarea-17" spellcheck="false">ษ</textarea>
+        <textarea class="containerSlider case-grille glissable textarea-18" spellcheck="false">Trirong Thin</textarea>
+        <textarea class="containerSlider case-grille glissable textarea-19" spellcheck="false">Trirong Light</textarea>
+        <textarea class="containerSlider case-grille glissable textarea-20" spellcheck="false">Trirong Regular</textarea>
+        <textarea class="containerSlider case-grille glissable textarea-21" spellcheck="false">Trirong Medium</textarea>
+        <textarea class="containerSlider case-grille glissable textarea-22" spellcheck="false">Trirong Bold</textarea>
+        <textarea class="containerSlider case-grille glissable textarea-23" spellcheck="false">Trirong Black</textarea>
+        
+
+
+
+
+
+    </div>
+
+
+
+          <script>
+            $( ".glissable" ).draggable();
+            /*$('.outils').hide();*/
+            $('.case-grille').click(function() {
+                $('.clicked').removeClass('clicked');
+                $(this).addClass('clicked');
+                /*$('.outils').show();*/
+            });
+            $('.outil-regular').click(function() {
+                $('.clicked').css('font-family', 'playfair_displayregular');
+            });
+            $('.outil-italic').click(function() {
+                $('.clicked').css('font-family', 'playfair_displayitalic');
+            });
+            $('.outil-black').click(function() {
+                $('.clicked').css('font-family', 'playfair_displayblack');
+            });
+            $('.outil-blackitalic').click(function() {
+                $('.clicked').css('font-family', 'playfair_displayblack_italic' );
+            });
+            $('.outil-bold').click(function() {
+                $('.clicked').css('font-family', 'playfair_displaybold');
+            });
+            
+            $('.outil-bolditalic').click(function() {
+                $('.clicked').css('font-family', 'playfair_displaybold_italic');
+
+
+
+
+
+
+            });
+            $('.outil-1px').click(function() {
+                $('.clicked').css('letter-spacing', '1px');
+            });
+            $('.outil-2px').click(function() {
+                $('.clicked').css('letter-spacing', '2px');
+            });
+            $('.outil-3px').click(function() {
+                $('.clicked').css('letter-spacing', '3px');
+            });
+            $('.outil-4px').click(function() {
+                $('.clicked').css('letter-spacing', '4px');
+            });
+            $('.outil-5px').click(function() {
+                $('.clicked').css('letter-spacing', '5px');
+            });
+            $('.outil-6px').click(function() {
+                $('.clicked').css('letter-spacing', '6px');
+            });
+            $('.outil-7px').click(function() {
+                $('.clicked').css('letter-spacing', '7px');
+            });
+            $('.outil-8px').click(function() {
+                $('.clicked').css('letter-spacing', '8px');
+            });
+            $('.outil-9px').click(function() {
+                $('.clicked').css('letter-spacing', '9px');
+            });
+            $('.outil-10px').click(function() {
+                $('.clicked').css('letter-spacing', '10px');
+            });
+
+
+            /* bouton + - */
+
+            $('.typo-plus').click(function() {
+            $('.clicked').css("font-size", parseInt($('.clicked').css("font-size")) + 5);
+            });
+            $('.typo-moins').click(function() {
+            $('.clicked').css("font-size", parseInt($('.clicked').css("font-size")) - 5);
+            });
+
+
+            $('.interlettrage-plus').click(function() {
+            $('.clicked').css("letter-spacing", parseInt($('.clicked').css("letter-spacing")) + 5);
+            });
+            $('.interlettrage-moins').click(function() {
+            $('.clicked').css("letter-spacing", parseInt($('.clicked').css("letter-spacing")) - 5);
+            });
+
+            /* MENU*/
+            $('.sous-menu').hide();
+            $('.outils').on('click', '.menu', function() {
+                $(this).next('.sous-menu').slideToggle();
+            });
+
+
+
+        </script>
+
+
+</body>
+</html>

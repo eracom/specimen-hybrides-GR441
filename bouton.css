@@ -1,0 +1,52 @@
+html, body {
+  background: white;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.contact-fp-wrap {
+  height: 60px;
+	margin: 100px auto;
+  position: relative;
+  top: 77%;
+  transform: translateY(-50%);
+  width: 320px;
+}
+
+.booton {
+  fill: transparent;
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -470;
+  stroke-width: 7px;
+  stroke: url('#000000');
+  color: black;
+}
+
+.booton-text {
+  color: black;
+  font-family: 'Lato';
+  font-size: 22px;
+  letter-spacing: 8px;
+  line-height: 32px;
+  position: relative;
+  top: -48px;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+  }
+  100% {
+    stroke-dasharray: 760;
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
+  }
+}
+
+.contact-fp-wrap:hover .booton {
+  -webkit-animation: 0.5s draw linear forwards;
+  animation: 0.5s draw linear forwards;
+}

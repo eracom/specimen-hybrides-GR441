@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'El Messiri';
+    src: url('fonts/elmessiri/subset-ElMessiri-Medium.eot');
+    src: url('fonts/elmessiri/subset-ElMessiri-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/elmessiri/subset-ElMessiri-Medium.woff2') format('woff2'),
+        url('fonts/elmessiri/subset-ElMessiri-Medium.woff') format('woff'),
+        url('fonts/elmessiri/subset-ElMessiri-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'El Messiri';
+    src: url('fonts/elmessiri/subset-ElMessiri-SemiBold.eot');
+    src: url('fonts/elmessiri/subset-ElMessiri-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/elmessiri/subset-ElMessiri-SemiBold.woff2') format('woff2'),
+        url('fonts/elmessiri/subset-ElMessiri-SemiBold.woff') format('woff'),
+        url('fonts/elmessiri/subset-ElMessiri-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'El Messiri';
+    src: url('fonts/elmessiri/subset-ElMessiri-Regular.eot');
+    src: url('fonts/elmessiri/subset-ElMessiri-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/elmessiri/subset-ElMessiri-Regular.woff2') format('woff2'),
+        url('fonts/elmessiri/subset-ElMessiri-Regular.woff') format('woff'),
+        url('fonts/elmessiri/subset-ElMessiri-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'El Messiri';
+    src: url('fonts/elmessiri/subset-ElMessiri-Bold.eot');
+    src: url('fonts/elmessiri/subset-ElMessiri-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/elmessiri/subset-ElMessiri-Bold.woff2') format('woff2'),
+        url('fonts/elmessiri/subset-ElMessiri-Bold.woff') format('woff'),
+        url('fonts/elmessiri/subset-ElMessiri-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    background-color: #000000;
+    color: white;
+    font-family:
+    font-size: 30px;
+}
+.outils {
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.poster {
+    border: 2px solid white;
+    width: 595px;
+    height: 841px;
+    margin: auto;
+    display: block;
+    background-color: white;
+    color: black;
+    position: relative;
+}
+.poster2 {
+    border: 2px solid white;
+    width: 595px;
+    height: 841px;
+    margin: auto;
+    display: block;
+    background-color: white;
+    color: black;
+    position: relative;
+    margin-top: 150px;
+}
+.slider {
+    padding-top: 5px;
+    padding-left: 15px;
+    width: 360px;
+    height: 5%;
+    border-radius: 4px;
+    }
+
+.mySlider, .mySecondSlider, .myThirdSlider {
+    width: 45%;
+    margin: 13px auto;
+    float: left;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    border-radius: 10px;
+}
+.clicked {
+    border: 2px solid red;
+}
+textarea {
+    overflow: hidden;
+    padding: 0;
+    font-weight: normal;
+    transition: width 0.3s ease-out;
+    max-width: 800px;
+    background: transparent;
+    border: 0;
+    font-family: sans-serif;
+}
+.textarea-1 {
+    font-family: 'El Messiri';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 160px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 375px;
+    height: 193px;
+    background-color: ;
+    color: blue;
+    text-align: center;
+    line-height: 180px;
+}
+.textarea-2 {
+    font-family: 'El Messiri';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 220px;
+    height: 630.75px;
+    background-color: blue;
+    color: white;
+    line-height: 21px;
+    padding: 10px;
+    text-align: right;
+}
+.textarea-3 {
+    font-family: 'El Messiri';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 230px;
+    position: absolute;
+    top: 193px;
+    right: 220px;
+    width: 200px;
+    height: 193px;
+    background-color: yellow;
+    color: blue;
+    text-align: center;
+    line-height: 230px;
+}
+.textarea-4 {
+    font-family: 'El Messiri';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 8px;
+    position: absolute;
+    top: 193px;
+    width: 175px;
+    height: 193px;
+    background-color: blue;
+    color: white;
+    text-align: right;
+    line-height: 10px;
+    padding: 10px;
+}
+.textarea-5 {
+    font-family: 'El Messiri';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    position: absolute;
+    top: 385px;
+    width: 375px;
+    height: 61.25px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+.textarea-6 {
+    font-family: 'El Messiri';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    position: absolute;
+    top: 446.25px;
+    width: 375px;
+    height: 61.25px;
+    background-color: yellow;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+.textarea-7 {
+    font-family: 'El Messiri';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    position: absolute;
+    top: 507.5px;
+    width: 375px;
+    height: 61.25px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+.textarea-8 {
+    font-family: 'El Messiri';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    position: absolute;
+    top: 568.75px;
+    width: 375px;
+    height: 61.25px;
+    background-color: yellow;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+.textarea-9 {
+    font-family: 'El Messiri';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+    position: absolute;
+    top: 630px;
+    width: 595px;
+    height: 212px;
+    color: blue;
+    text-align: right;
+    line-height: 20px;
+    padding: 10px;
+    border: 10px solid blue;
+}

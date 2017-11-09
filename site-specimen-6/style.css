@@ -1,0 +1,826 @@
+
+@font-face {
+    font-family: 'montserratblack';
+    src: url('fonts/montserratyeah/montserrat-black-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratblack_italic';
+    src: url('fonts/montserratyeah/montserrat-blackitalic-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('fonts/montserratyeah/montserrat-bold-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratbold_italic';
+    src: url('fonts/montserratyeah/montserrat-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratextrabold';
+    src: url('fonts/montserratyeah/montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratextrabold_italic';
+    src: url('fonts/montserratyeah/montserrat-extrabolditalic-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-extrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratextralight';
+    src: url('fonts/montserratyeah/montserrat-extralight-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratextralight_italic';
+    src: url('fonts/montserratyeah/montserrat-extralightitalic-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-extralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratitalic';
+    src: url('fonts/montserratyeah/montserrat-italic-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('fonts/montserratyeah/montserrat-light-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratlight_italic';
+    src: url('fonts/montserratyeah/montserrat-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('fonts/montserratyeah/montserrat-medium-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* début de la el_messiri */
+@font-face {
+  font-family: 'ElMessiri-Bold';
+  src: url('ElMessiri-Bold.eot?#iefix') format('embedded-opentype'),  url('ElMessiri-Bold.woff') format('woff'), url('ElMessiri-Bold.ttf')  format('truetype'), url('ElMessiri-Bold.svg#ElMessiri-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ElMessiri-Medium';
+  src: url('ElMessiri-Medium.eot?#iefix') format('embedded-opentype'),  url('ElMessiri-Medium.woff') format('woff'), url('ElMessiri-Medium.ttf')  format('truetype'), url('ElMessiri-Medium.svg#ElMessiri-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ElMessiri-Regular';
+  src: url('ElMessiri-Regular.eot?#iefix') format('embedded-opentype'),  url('ElMessiri-Regular.woff') format('woff'), url('ElMessiri-Regular.ttf')  format('truetype'), url('ElMessiri-Regular.svg#ElMessiri-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ElMessiri-SemiBold';
+  src: url('ElMessiri-SemiBold.eot?#iefix') format('embedded-opentype'),  url('ElMessiri-SemiBold.woff') format('woff'), url('ElMessiri-SemiBold.ttf')  format('truetype'), url('ElMessiri-SemiBold.svg#ElMessiri-SemiBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* fin de la el_messiri */
+
+
+
+/* début de la catamaran */
+
+@font-face {
+  font-family: 'Catamaran-Black';
+  src: url('Catamaran-Black.eot?#iefix') format('embedded-opentype'),  url('Catamaran-Black.woff') format('woff'), url('Catamaran-Black.ttf')  format('truetype'), url('Catamaran-Black.svg#Catamaran-Black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran-Bold';
+  src: url('Catamaran-Bold.eot?#iefix') format('embedded-opentype'),  url('Catamaran-Bold.woff') format('woff'), url('Catamaran-Bold.ttf')  format('truetype'), url('Catamaran-Bold.svg#Catamaran-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran-ExtraBold';
+  src: url('fonts/catamaran/Catamaran-ExtraBold.eot?#iefix') format('embedded-opentype'),  url('fonts/catamaran/Catamaran-ExtraBold.woff') format('woff'), url('fonts/catamaran/Catamaran-ExtraBold.ttf')  format('truetype'), url('fonts/catamaran/Catamaran-ExtraBold.svg#Catamaran-ExtraBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran-ExtraLight';
+  src: url('Catamaran-ExtraLight.eot?#iefix') format('embedded-opentype'),  url('Catamaran-ExtraLight.woff') format('woff'), url('Catamaran-ExtraLight.ttf')  format('truetype'), url('Catamaran-ExtraLight.svg#Catamaran-ExtraLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran-Light';
+  src: url('Catamaran-Light.eot?#iefix') format('embedded-opentype'),  url('Catamaran-Light.woff') format('woff'), url('Catamaran-Light.ttf')  format('truetype'), url('Catamaran-Light.svg#Catamaran-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran-Medium';
+  src: url('Catamaran-Medium.eot?#iefix') format('embedded-opentype'),  url('Catamaran-Medium.woff') format('woff'), url('Catamaran-Medium.ttf')  format('truetype'), url('Catamaran-Medium.svg#Catamaran-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran-Regular';
+  src: url('Catamaran-Regular.eot?#iefix') format('embedded-opentype'),  url('Catamaran-Regular.woff') format('woff'), url('Catamaran-Regular.ttf')  format('truetype'), url('Catamaran-Regular.svg#Catamaran-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran-SemiBold';
+  src: url('Catamaran-SemiBold.eot?#iefix') format('embedded-opentype'),  url('Catamaran-SemiBold.woff') format('woff'), url('Catamaran-SemiBold.ttf')  format('truetype'), url('Catamaran-SemiBold.svg#Catamaran-SemiBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran-Thin';
+  src: url('Catamaran-Thin.eot?#iefix') format('embedded-opentype'),  url('Catamaran-Thin.woff') format('woff'), url('Catamaran-Thin.ttf')  format('truetype'), url('Catamaran-Thin.svg#Catamaran-Thin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* fin de la catamaran */
+
+
+
+/* début de la playfairdisplay*/
+@font-face {
+    font-family: 'playfair_displayitalic';
+    src: url('playfairdisplay-italic-webfont.woff2') format('woff2'),
+         url('playfairdisplay-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair_displayblack';
+    src: url('fonts/playfairdisplay/playfairdisplay-black-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay/playfairdisplay-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair_displayblack_italic';
+    src: url('fonts/playfairdisplay/playfairdisplay-blackitalic-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay/playfairdisplay-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair_displaybold';
+    src: url('fonts/playfairdisplay/playfairdisplay-bold-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay/playfairdisplay-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair_displaybold_italic';
+    src: url('fonts/playfairdisplay/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay/playfairdisplay-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair_displayitalic';
+    src: url('fonts/playfairdisplay/playfairdisplay-italic-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay/playfairdisplay-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('fonts/playfairdisplay/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay/playfairdisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* fin de la playfairdisplay */
+
+
+
+/* début de la trirong */
+
+@font-face {
+  font-family: 'Trirong-Black';
+  src: url('Trirong-Black.eot?#iefix') format('embedded-opentype'),  url('Trirong-Black.woff') format('woff'), url('Trirong-Black.ttf')  format('truetype'), url('Trirong-Black.svg#Trirong-Black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-BlackItalic';
+  src: url('Trirong-BlackItalic.eot?#iefix') format('embedded-opentype'),  url('Trirong-BlackItalic.woff') format('woff'), url('Trirong-BlackItalic.ttf')  format('truetype'), url('Trirong-BlackItalic.svg#Trirong-BlackItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-Bold';
+  src: url('Trirong-Bold.eot?#iefix') format('embedded-opentype'),  url('Trirong-Bold.woff') format('woff'), url('Trirong-Bold.ttf')  format('truetype'), url('Trirong-Bold.svg#Trirong-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-BoldItalic';
+  src: url('Trirong-BoldItalic.eot?#iefix') format('embedded-opentype'),  url('Trirong-BoldItalic.woff') format('woff'), url('Trirong-BoldItalic.ttf')  format('truetype'), url('Trirong-BoldItalic.svg#Trirong-BoldItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Trirong-ExtraBold';
+  src: url('Trirong-ExtraBold.eot?#iefix') format('embedded-opentype'),  url('Trirong-ExtraBold.woff') format('woff'), url('Trirong-ExtraBold.ttf')  format('truetype'), url('Trirong-ExtraBold.svg#Trirong-ExtraBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Trirong-ExtraBoldItalic';
+  src: url('Trirong-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),  url('Trirong-ExtraBoldItalic.woff') format('woff'), url('Trirong-ExtraBoldItalic.ttf')  format('truetype'), url('Trirong-ExtraBoldItalic.svg#Trirong-ExtraBoldItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-ExtraLight';
+  src: url('Trirong-ExtraLight.eot?#iefix') format('embedded-opentype'),  url('Trirong-ExtraLight.woff') format('woff'), url('Trirong-ExtraLight.ttf')  format('truetype'), url('Trirong-ExtraLight.svg#Trirong-ExtraLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-ExtraLightItalic';
+  src: url('Trirong-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),  url('Trirong-ExtraLightItalic.woff') format('woff'), url('Trirong-ExtraLightItalic.ttf')  format('truetype'), url('Trirong-ExtraLightItalic.svg#Trirong-ExtraLightItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-Italic';
+  src: url('Trirong-Italic.eot?#iefix') format('embedded-opentype'),  url('Trirong-Italic.woff') format('woff'), url('Trirong-Italic.ttf')  format('truetype'), url('Trirong-Italic.svg#Trirong-Italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-Light';
+  src: url('Trirong-Light.eot?#iefix') format('embedded-opentype'),  url('Trirong-Light.woff') format('woff'), url('Trirong-Light.ttf')  format('truetype'), url('Trirong-Light.svg#Trirong-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-LightItalic';
+  src: url('Trirong-LightItalic.eot?#iefix') format('embedded-opentype'),  url('Trirong-LightItalic.woff') format('woff'), url('Trirong-LightItalic.ttf')  format('truetype'), url('Trirong-LightItalic.svg#Trirong-LightItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-Medium';
+  src: url('Trirong-Medium.eot?#iefix') format('embedded-opentype'),  url('Trirong-Medium.woff') format('woff'), url('Trirong-Medium.ttf')  format('truetype'), url('Trirong-Medium.svg#Trirong-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-MediumItalic';
+  src: url('Trirong-MediumItalic.eot?#iefix') format('embedded-opentype'),  url('Trirong-MediumItalic.woff') format('woff'), url('Trirong-MediumItalic.ttf')  format('truetype'), url('Trirong-MediumItalic.svg#Trirong-MediumItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-Regular';
+  src: url('Trirong-Regular.eot?#iefix') format('embedded-opentype'),  url('Trirong-Regular.woff') format('woff'), url('Trirong-Regular.ttf')  format('truetype'), url('Trirong-Regular.svg#Trirong-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-SemiBold';
+  src: url('Trirong-SemiBold.eot?#iefix') format('embedded-opentype'),  url('Trirong-SemiBold.woff') format('woff'), url('Trirong-SemiBold.ttf')  format('truetype'), url('Trirong-SemiBold.svg#Trirong-SemiBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-SemiBoldItalic';
+  src: url('Trirong-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),  url('Trirong-SemiBoldItalic.woff') format('woff'), url('Trirong-SemiBoldItalic.ttf')  format('truetype'), url('Trirong-SemiBoldItalic.svg#Trirong-SemiBoldItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-Thin';
+  src: url('Trirong-Thin.eot?#iefix') format('embedded-opentype'),  url('Trirong-Thin.woff') format('woff'), url('Trirong-Thin.ttf')  format('truetype'), url('Trirong-Thin.svg#Trirong-Thin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-ThinItalic';
+  src: url('Trirong-ThinItalic.eot?#iefix') format('embedded-opentype'),  url('Trirong-ThinItalic.woff') format('woff'), url('Trirong-ThinItalic.ttf')  format('truetype'), url('Trirong-ThinItalic.svg#Trirong-ThinItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* fin de la trirong */
+
+body {
+  
+  background-color: black;
+ }
+.outils {
+
+    position: fixed;
+
+}
+
+.poster {
+    position: relative;
+    width: 595px;
+    height: 841px;
+    margin: auto;
+    display: block;
+    background-color: white;
+    color: black;
+    margin-bottom: 150px;
+}
+
+
+ul {
+list-style:none;
+margin-left:0;
+padding-left:0;
+}
+li {
+margin-bottom:15px;/* à adapter */
+font-family: 'montserratextralight';
+}
+
+.plus, .moins {
+  padding-top: 1px;
+  display: inline-block;
+  margin: 0px 0 0px 0px;
+  border: 0px solid white;
+  
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+.plus:hover, .moins:hover {
+  cursor: pointer;
+}
+
+.menu{
+  cursor: pointer;
+
+}
+
+a {
+
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+.outil-regular {
+
+  cursor: pointer;
+}
+.outil-italic{
+  cursor: pointer;
+}
+.outil-black{
+  cursor: pointer;
+}
+.outil-blackitalic{
+  cursor: pointer;
+}
+.outil-bold{
+   cursor: pointer;
+}
+.outil-bolditalic{
+  cursor: pointer;
+}
+
+
+.slider {
+    padding-top: 5px;
+    padding-left: 15px;
+    width: 360px;
+    height: 5%;
+    border-radius: 4px;
+    }
+
+.mySlider, .mySecondSlider, .myThirdSlider {
+    width: 45%;
+    margin: 13px auto;
+    float: left;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    border-radius: 10px;
+}
+.clicked {
+    border: 2px solid transparent;
+}
+
+
+.sidebar1{
+
+font-family: 'montserratmedium';
+position:fixed;
+background: transparent;
+width: 298.5px;
+height: 300px;
+margin-top: 20px;
+margin-left: 20px;
+text-align: left;
+background-color: black;
+color: white;
+font-size: 20px;
+line-height: 40px;
+
+}
+
+
+
+
+
+
+textarea {
+    overflow: hidden;
+    padding: 0;
+    font-weight: normal;
+    transition: width 0.3s ease-out;
+    max-width: 800px;
+    background: transparent;
+    border: 0;
+    font-family: sans-serif;
+    resize: none;
+}
+
+.textarea-1 {
+    font-family: 'playfair_displayitalic';
+    background: blue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 298.5px;
+    height: 90px;
+    font-size: 65px;
+    text-align: center;
+    line-height: 85px;
+}
+.textarea-2 {
+    font-family: 'playfair_displaybold_italic';
+    background: blue;
+    position: absolute;
+    top: 0px;
+    left: 298.5px;
+    width: 297.5px;
+    height: 90px;
+    font-size: 65px;
+    text-align: center;
+    line-height: 85px;
+    
+}
+.textarea-3 {
+    font-family: 'playfair_displaybold';
+    background: white;
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    width: 298.5px;
+    height: 90px;
+    font-size: 85px;
+    line-height: 85px;
+
+
+
+}
+.textarea-9 {
+    font-family: 'playfair_displayitalic';
+    background: white;
+    position: absolute;
+    top: 90px;
+    left: 298.5px;
+    width: 297px;
+    height: 90px;
+    font-size: 85px;
+    text-align: center;
+    line-height: 85px;
+}
+.textarea-4 {
+    font-family: 'playfair_displayblack_italic';
+    background: red;
+    position: absolute;
+    top: 180px;
+    left: 0px;
+    width: 595px;
+    height: 90px;
+    font-size: 85px;
+    text-align: center;
+    line-height: 85px;
+}
+.textarea-5 {
+    font-family: 'playfair_displayblack';
+    background: red;
+    position: absolute;
+    top: 270px;
+    left: 0px;
+    width: 595px;
+    height: 90px;
+    font-size: 85px;
+    line-height: 85px;
+}
+.textarea-6 {
+    font-family: 'playfair_displayitalic';
+    background: blue;
+    position: absolute;
+    top: 360px;
+    left: 0px;
+    width: 199px;
+    height: 481px;
+    font-size: 25px;
+    text-align: right;
+
+
+}
+.textarea-7 {
+    font-family: 'playfair_displayregular';
+    background: white;
+    position: absolute;
+    top: 360px;
+    left: 199px;
+    width: 199px;
+    height: 481px;
+    font-size: 400px;
+    text-align: center;
+    line-height: 600px;
+}
+.textarea-8 {
+    font-family: 'playfair_displayitalic';
+    background: blue;
+    position: absolute;
+    top: 360px;
+    left: 398px;
+    width: 197px;
+    height: 481px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.textarea-10 {
+    font-family: 'playfair_displayblack_italic';
+    background: blue;
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    width: 285px;
+    height: 841px;
+    font-size: 300px;
+    text-align: center;
+    line-height: 200px;
+}
+.textarea-11 {
+    font-family: 'playfair_displayitalic';
+    background: white;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    width: 295px;
+    height: 100px;
+    font-size: 60px;
+    text-align: center;
+    line-height: 100px;
+    
+}
+.textarea-12 {
+    font-family: 'playfair_displayblack_italic';
+    background: yellow;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    width: 295px;
+    height: 100px;
+    font-size: 60px;
+    text-align: center;
+    line-height: 100px;    
+}
+.textarea-13 {
+    font-family: 'playfair_displayblack_italic';
+    background: white;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    width: 98px;
+    height: 641px;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.textarea-14 {
+    font-family: 'playfair_displayitalic';
+    background: yellow;
+    position: absolute;
+    top: 200px;
+    left: 398px;
+    width: 99px;
+    height: 641px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 70px;
+    
+}
+.textarea-15 {
+    font-family: 'playfair_displaybold';
+    background: yellow;
+    position: absolute;
+    top: 200px;
+    left: 497px;
+    width: 98.5px;
+    height: 641px;
+    font-size: 160px;
+    text-align: center;
+    line-height: 140px;
+    
+}
+.textarea-16 {
+    font-family: 'playfair_displaybold';
+    background: yellow;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 595px;
+    height: 50px;
+    font-size: 160px;
+    text-align: center;
+    line-height: 140px;
+    
+}
+
+
+
+/* IMPRESSION */
+
+@media print {
+    .titre {
+        color: green;
+    }
+    .screen-only {
+        display: none;
+    }
+    .outils {
+      display: none;
+    }
+    body {
+      background-color: white;
+    }
+
+
+}
+
+@page {
+    size: 210mm 297mm;
+    margin: none;
+}

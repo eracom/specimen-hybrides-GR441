@@ -1,0 +1,207 @@
+/* réinitialisations de base, ne pas toucher */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+
+body {
+  display: center;
+  background: black;
+}
+.titre{
+  font-family: 'aileronthin';
+}
+a, a:link, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+    cursor: crosshair;
+} 
+a:hover{
+  color: hotpink;
+}
+
+
+header h1{
+  text-align: center;
+  position: relative;
+  z-index: 100;
+  font-size: 50px;
+  font-weight: bold;
+  color: white; 
+  margin-top: 50px;
+}
+
+header h2{
+  text-align: left;
+  position: relative;
+  padding-left: 10px;
+  z-index: 600;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white; 
+  margin-top: 40px;
+}
+
+.carousel-inner{  
+  text-align:center;
+  position: relative;
+  z-index: 0;
+  font-size: 120px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-top: 100px;
+  color: white; 
+}
+
+.carousel-indicators{
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none
+}
+
+.carousel-control {
+  left: -80px;
+}
+.carousel-control.right {
+  right: -80px;
+}
+.animation-elements {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.container2 {
+    margin: 90px auto;
+    width: 580px;
+    text-align: center;
+}
+.container2 > .button {
+    margin: 12px;
+}
+.cooper{
+  font-family: 'cooper_hewittheavy';
+  font-size: 20px;
+  color: white;
+  margin-top: -20px;
+  height: 50px;
+  position: relative;
+}
+
+.Butcherman{
+  font-family: 'butchermanregular';
+  font-size: 25px;
+  color: white;
+  margin-top: -20px;
+  height: 50px;
+}
+.Aileron{
+  font-family: 'aileronultralight';
+  font-size: 20px;
+  color: white;
+  margin-top: -20px;
+  height: 50px;
+}
+.Leaguegothic{
+  font-family: 'league_gothicitalic';
+  font-size: 30px;
+  color: white;
+  margin-top: -20px;
+  height: 50px;
+  position: relative;
+}
+.Limelight{
+  font-family: 'limelightregular';
+  font-size: 30px;
+  color: white;
+  margin-top: -20px;
+  height: 50px;
+  position: relative;
+}
+.Paperwork{
+  font-family: 'paperwork_blackregular';
+  font-size: 30px;
+  color: white;
+  margin-top: -20px;
+  height: 50px;
+  position: relative;
+}
+.Plaster{
+  font-family: 'plasterregular';
+  font-size: 30px;
+  color: white;
+  margin-top: -20px;
+  height: 50px;
+  position: relative;
+}
+.PRESSSTART{
+  font-family: 'press_start_2pregular';
+  font-size: 30px;
+  color: white;
+  margin-top: -20px;
+  height: 50px;
+  position: relative;
+}
+.Ultra{
+  font-family: 'ultraregular';
+  font-size: 30px;
+  color: white;
+  margin-top: -20px;
+  height: 50px;
+  position: relative;
+}
+.Unifrakturcook{
+  font-family: 'unifrakturcookbold';
+  font-size: 30px;
+  color: white;
+  margin-top: -20px;
+  height: 50px;
+  position: relative;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 80px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.4);
+    font-family: 'aileronthin';
+    background-clip: padding-box;
+    border: 1px solid;
+    border-radius: 2px;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.08), 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+
+.button-black:active {
+    background: #47494f;
+    border-color: #232427 #2f3034 #2f3034;
+}
+
+
+

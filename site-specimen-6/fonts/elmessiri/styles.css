@@ -1,0 +1,28 @@
+
+@font-face {
+  font-family: 'ElMessiri-Bold';
+  src: url('ElMessiri-Bold.eot?#iefix') format('embedded-opentype'),  url('ElMessiri-Bold.woff') format('woff'), url('ElMessiri-Bold.ttf')  format('truetype'), url('ElMessiri-Bold.svg#ElMessiri-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ElMessiri-Medium';
+  src: url('ElMessiri-Medium.eot?#iefix') format('embedded-opentype'),  url('ElMessiri-Medium.woff') format('woff'), url('ElMessiri-Medium.ttf')  format('truetype'), url('ElMessiri-Medium.svg#ElMessiri-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ElMessiri-Regular';
+  src: url('ElMessiri-Regular.eot?#iefix') format('embedded-opentype'),  url('ElMessiri-Regular.woff') format('woff'), url('ElMessiri-Regular.ttf')  format('truetype'), url('ElMessiri-Regular.svg#ElMessiri-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ElMessiri-SemiBold';
+  src: url('ElMessiri-SemiBold.eot?#iefix') format('embedded-opentype'),  url('ElMessiri-SemiBold.woff') format('woff'), url('ElMessiri-SemiBold.ttf')  format('truetype'), url('ElMessiri-SemiBold.svg#ElMessiri-SemiBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

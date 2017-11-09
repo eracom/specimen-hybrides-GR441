@@ -1,0 +1,218 @@
+/* réinitialisations de base, ne pas toucher */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+
+
+body {
+    font-family: 'abril_fatfaceregular';
+}
+
+.titre {
+  font-size: 30px;
+  text-align: right;
+  padding-right: 60px;
+
+}
+.titre:hover {
+    color: blue;
+}
+.case-typo {
+  width: 33.41%;
+  height: 300px;
+  border: 2px solid black;
+  float:left;
+  margin-left: -1px;
+  margin-top: -1px;
+  padding: 5px;
+  display: table-cell;
+  vertical-align: middle;
+  color:red;
+}
+.select {
+  border: 2px solid black;
+  width: 20px;
+  height: 20px;
+}
+
+/* AJOUTER AU CSS DE RUTH */
+.bouton-grand {
+  border: 2px solid black;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+}
+.bouton-fermer {
+  border: 2px solid black;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+}
+.case-grande {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: #EEEFFF;
+}
+.bloc-gauche {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 43%;
+  height: 85%;
+  border: 2px solid black;
+  word-wrap: break-word;
+}
+.bloc-droite{
+  margin-top: 60px;
+  width: 40%;
+  position: absolute;
+  top: 0;
+  left: 52%;
+  height: 75%;
+  width: 43%;
+  border: 2px solid blue;
+
+}
+.graisses {
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.texte-bible {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: left;
+  font-size: 25px;
+  font-color: blue
+
+
+}
+
+
+
+
+
+
+
+/* QUE LA DEDANS*/
+
+
+.typo-gauche {
+    font-size: 60px;
+    text-align: center;
+}
+.typo-droite {
+  font-size: 60px;
+}
+.case-typo:hover {
+    background-color: #EEEFFF;
+}
+.case-typo-acme {
+  font-family: 'acmeregular';
+}
+.case-typo-fatface {
+  font-family: 'abril_fatfaceregular';
+}
+.case-typo-legreya {
+  font-family: 'alegreya_sans_scblack';
+}
+.case-typo-anton {
+  font-family: 'antonregular';
+}
+.case-typo-archivo {
+  font-family: 'archivo_blackregular';
+}
+.case-typo-biorhyme {
+  font-family: 'biorhymeextralight';
+}
+.case-typo-cinzel {
+  font-family: 'cinzelbold';
+}
+.case-typo-cormorant {
+  font-family: 'cormorantbold_italic';
+}
+.case-typo-el {
+  font-family: 'el_messirimedium';
+}
+.case-typo-encode {
+  font-family: 'encode_sansextralight';
+}
+.case-typo-expletus {
+  font-family: 'expletus_sansmedium';
+}
+.case-typo-josefin {
+  font-family: 'josefin_sansbold';
+}
+.case-typo-lekton {
+  font-family: 'lektonregular';
+}
+.case-typo-merriweather {
+  font-family: 'merriweatheritalic';
+}
+.case-typo-mitr {
+  font-family: 'mitrbold';
+}
+
+.src-Borgo-2.jpg {
+  background-image:url(img/Borgo-2.jpg);
+  background-attachment:fixed;
+
+}
+
+
+
+
+
+/* RESPONSIVE */
+
+/* ÉCRAN SEULEMENT */
+@media screen {
+    .print-only {
+        display: none;
+    }
+}
+
+/* ÉCRAN (VALEURS MINIMUM) */
+@media screen and (min-width: 480px) {
+
+}
+/* ÉCRAN (VALEURS MAXIMUM) */
+@media screen and (max-width: 480px) {
+    .titre {
+        color: red;
+    }
+}
+
+/* IMPRESSION */
+
+@media print {
+    .titre {
+        color: green;
+    }
+    .screen-only {
+        display: none;
+    }
+}
+
+@page {
+    size: 210mm 297mm;
+    margin: none;
+}

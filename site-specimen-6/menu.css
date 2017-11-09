@@ -1,0 +1,246 @@
+
+@font-face {
+    font-family: 'montserratblack';
+    src: url('fonts/montserratyeah/montserrat-black-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratblack_italic';
+    src: url('fonts/montserratyeah/montserrat-blackitalic-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('fonts/montserratyeah/montserrat-bold-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratbold_italic';
+    src: url('fonts/montserratyeah/montserrat-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratextrabold';
+    src: url('fonts/montserratyeah/montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratextrabold_italic';
+    src: url('fonts/montserratyeah/montserrat-extrabolditalic-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-extrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratextralight';
+    src: url('fonts/montserratyeah/montserrat-extralight-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratextralight_italic';
+    src: url('fonts/montserratyeah/montserrat-extralightitalic-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-extralightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratitalic';
+    src: url('fonts/montserratyeah/montserrat-italic-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('fonts/montserratyeah/montserrat-light-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratlight_italic';
+    src: url('fonts/montserratyeah/montserrat-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('fonts/montserratyeah/montserrat-medium-webfont.woff2') format('woff2'),
+         url('fonts/montserratyeah/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+ul {
+list-style:none;
+margin-left:0;
+padding-left:0;
+}
+li {
+margin-bottom:15px;/* à adapter */
+font-family: 'montserratextralight';
+}
+
+.plus, .moins {
+  padding-top: 1px;
+  display: inline-block;
+  margin: 0px 0 0px 0px;
+  border: 0px solid white;
+  
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+.plus:hover, .moins:hover {
+  cursor: pointer;
+}
+
+.menu{
+  cursor: pointer;
+
+}
+
+a {
+
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+.outil-regular {
+
+  cursor: pointer;
+}
+.outil-italic{
+  cursor: pointer;
+}
+.outil-black{
+  cursor: pointer;
+}
+.outil-blackitalic{
+  cursor: pointer;
+}
+.outil-bold{
+   cursor: pointer;
+}
+.outil-bolditalic{
+  cursor: pointer;
+}
+
+
+.slider {
+    padding-top: 5px;
+    padding-left: 15px;
+    width: 360px;
+    height: 5%;
+    border-radius: 4px;
+    }
+
+.mySlider, .mySecondSlider, .myThirdSlider {
+    width: 45%;
+    margin: 13px auto;
+    float: left;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    border-radius: 10px;
+}
+.clicked {
+    border: 2px solid transparent;
+}
+
+
+.sidebar1{
+
+font-family: 'montserratmedium';
+position:fixed;
+background: transparent;
+width: 298.5px;
+height: 300px;
+margin-top: 20px;
+margin-left: 20px;
+text-align: left;
+background-color: black;
+color: white;
+font-size: 20px;
+line-height: 40px;
+
+}
+
+
+

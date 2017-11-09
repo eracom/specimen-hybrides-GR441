@@ -1,0 +1,578 @@
+/* liens vers la typo */
+@font-face {
+    font-family: 'League Gothic';
+    src: url('fonts/leaguegothic-regular-webfont.eot');
+    src: url('fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('fonts/leaguegothic-regular-webfont.svg#league_gothic_regularregular') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'mirzabold';
+    src: url('fonts/mirza-bold-webfont.woff2') format('woff2'),
+         url('fonts/mirza-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'acmeregular';
+    src: url('fonts/acme-regular-webfont.woff2') format('woff2'),
+         url('fonts/acme-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'abril_fatfaceregular';
+    src: url('fonts/abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('fonts/abrilfatface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alegreya_sans_scblack';
+    src: url('fonts/alegreyasanssc-black-webfont.woff2') format('woff2'),
+         url('fonts/alegreyasanssc-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alegreya_sans_scblack_italic';
+    src: url('fonts/alegreyasanssc-blackitalic-webfont.woff2') format('woff2'),
+         url('fonts/alegreyasanssc-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+  @font-face {
+        font-family: 'alegreya_sans_scbold';
+        src: url('fonts/alegreyasanssc-bold-webfont.woff2') format('woff2'),
+             url('fonts/alegreyasanssc-bold-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+
+
+@font-face {
+        font-family: 'alegreya_sans_scbold_italic';
+        src: url('fonts/alegreyasanssc-bolditalic-webfont.woff2') format('woff2'),
+             url('fonts/alegreyasanssc-bolditalic-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'alegreya_sans_scextrabold';
+    src: url('fonts/alegreyasanssc-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/alegreyasanssc-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'alegreya_sans_scXBdIt';
+    src: url('fonts/alegreyasanssc-extrabolditalic-webfont.woff2') format('woff2'),
+         url('fonts/alegreyasanssc-extrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'alegreya_sans_scitalic';
+    src: url('fonts/alegreyasanssc-italic-webfont.woff2') format('woff2'),
+         url('fonts/alegreyasanssc-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alegreya_sans_scitalic';
+    src: url('fonts/alegreyasanssc-italic-webfont.woff2') format('woff2'),
+         url('fonts/alegreyasanssc-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'alegreya_sans_sclight';
+    src: url('fonts/alegreyasanssc-light-webfont.woff2') format('woff2'),
+         url('fonts/alegreyasanssc-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'alegreya_sans_sclight_italic';
+    src: url('fonts/alegreyasanssc-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/alegreyasanssc-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alegreya_sans_scmedium';
+    src: url('fonts/alegreyasanssc-medium-webfont.woff2') format('woff2'),
+         url('fonts/alegreyasanssc-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'alegreya_sans_scmedium_italic';
+    src: url('fonts/alegreyasanssc-mediumitalic-webfont.woff2') format('woff2'),
+         url('fonts/alegreyasanssc-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'alegreya_sans_scregular';
+    src: url('fonts/alegreyasanssc-regular-webfont.woff2') format('woff2'),
+         url('fonts/alegreyasanssc-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'antonregular';
+    src: url('fonts/anton-regular-webfont.woff2') format('woff2'),
+         url('fonts/anton-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'archivo_blackregular';
+    src: url('fonts/archivoblack-regular-webfont.woff2') format('woff2'),
+         url('fonts/archivoblack-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'biorhymebold';
+    src: url('fonts/biorhyme-bold-webfont.woff2') format('woff2'),
+         url('fonts/biorhyme-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'biorhymeextrabold';
+    src: url('fonts/biorhyme-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/biorhyme-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'biorhymeextralight';
+    src: url('fonts/biorhyme-extralight-webfont.woff2') format('woff2'),
+         url('fonts/biorhyme-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'biorhymelight';
+    src: url('fonts/biorhyme-light-webfont.woff2') format('woff2'),
+         url('fonts/biorhyme-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'biorhymeregular';
+    src: url('fonts/biorhyme-regular-webfont.woff2') format('woff2'),
+         url('fonts/biorhyme-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cinzelblack';
+    src: url('fonts/cinzel-black-webfont.woff2') format('woff2'),
+         url('fonts/cinzel-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cinzelbold';
+    src: url('fonts/cinzel-bold-webfont.woff2') format('woff2'),
+         url('fonts/cinzel-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cinzelregular';
+    src: url('fonts/cinzel-regular-webfont.woff2') format('woff2'),
+         url('fonts/cinzel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cormorantbold';
+    src: url('fonts/cormorant-bold-webfont.woff2') format('woff2'),
+         url('fonts/cormorant-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cormorantbold_italic';
+    src: url('fonts/cormorant-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/cormorant-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cormorantitalic';
+    src: url('fonts/cormorant-italic-webfont.woff2') format('woff2'),
+         url('fonts/cormorant-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'el_messiribold';
+    src: url('fonts/elmessiri-bold-webfont.woff2') format('woff2'),
+         url('fonts/elmessiri-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'el_messirimedium';
+    src: url('fonts/elmessiri-medium-webfont.woff2') format('woff2'),
+         url('fonts/elmessiri-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'el_messiriregular';
+    src: url('fonts/elmessiri-regular-webfont.woff2') format('woff2'),
+         url('fonts/elmessiri-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'encode_sansextralight';
+    src: url('fonts/encodesans-extralight-webfont.woff2') format('woff2'),
+         url('fonts/encodesans-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'encode_sanslight';
+    src: url('fonts/encodesans-light-webfont.woff2') format('woff2'),
+         url('fonts/encodesans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'encode_sansmedium';
+    src: url('fonts/encodesans-medium-webfont.woff2') format('woff2'),
+         url('fonts/encodesans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'expletus_sansitalic';
+    src: url('fonts/expletussans-italic-webfont.woff2') format('woff2'),
+         url('fonts/expletussans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'expletus_sansmedium';
+    src: url('fonts/expletussans-medium-webfont.woff2') format('woff2'),
+         url('fonts/expletussans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'expletus_sansmedium_italic';
+    src: url('fonts/expletussans-mediumitalic-webfont.woff2') format('woff2'),
+         url('fonts/expletussans-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'josefin_sansbold';
+    src: url('fonts/josefinsans-bold-webfont.woff2') format('woff2'),
+         url('fonts/josefinsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'josefin_sansitalic';
+    src: url('fonts/josefinsans-italic-webfont.woff2') format('woff2'),
+         url('fonts/josefinsans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'josefin_sanslight';
+    src: url('fonts/josefinsans-light-webfont.woff2') format('woff2'),
+         url('fonts/josefinsans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lektonbold';
+    src: url('fonts/lekton-bold-webfont.woff2') format('woff2'),
+         url('fonts/lekton-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lektonitalic';
+    src: url('fonts/lekton-italic-webfont.woff2') format('woff2'),
+         url('fonts/lekton-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'lektonregular';
+    src: url('fonts/lekton-regular-webfont.woff2') format('woff2'),
+         url('fonts/lekton-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'merriweatherblack_italic';
+    src: url('fonts/merriweather-blackitalic-webfont.woff2') format('woff2'),
+         url('fonts/merriweather-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'merriweatherbold';
+    src: url('fonts/merriweather-bold-webfont.woff2') format('woff2'),
+         url('fonts/merriweather-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'merriweatheritalic';
+    src: url('fonts/merriweather-italic-webfont.woff2') format('woff2'),
+         url('fonts/merriweather-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mitrbold';
+    src: url('fonts/mitr-bold-webfont.woff2') format('woff2'),
+         url('fonts/mitr-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mitrextralight';
+    src: url('fonts/mitr-extralight-webfont.woff2') format('woff2'),
+         url('fonts/mitr-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mitrlight';
+    src: url('fonts/mitr-light-webfont.woff2') format('woff2'),
+         url('fonts/mitr-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mitrmedium';
+    src: url('fonts/mitr-medium-webfont.woff2') format('woff2'),
+         url('fonts/mitr-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mitrregular';
+    src: url('fonts/mitr-regular-webfont.woff2') format('woff2'),
+         url('fonts/mitr-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'mitrsemibold';
+    src: url('fonts/mitr-semibold-webfont.woff2') format('woff2'),
+         url('fonts/mitr-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

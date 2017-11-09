@@ -1,0 +1,1111 @@
+/* début de la el_messiri */
+@font-face {
+  font-family: 'ElMessiri-Bold';
+  src: url('ElMessiri-Bold.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/ElMessiri-Bold.woff') format('woff'), 
+  url('fonts/ElMessiri-Bold.ttf')  format('truetype'), 
+  url('fonts/ElMessiri-Bold.svg#ElMessiri-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ElMessiri-Medium';
+  src: url('fonts/ElMessiri-Medium.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/ElMessiri-Medium.woff') format('woff'), 
+  url('fonts/ElMessiri-Medium.ttf')  format('truetype'), 
+  url('fonts/ElMessiri-Medium.svg#ElMessiri-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ElMessiri-Regular';
+  src: url('fonts/ElMessiri-Regular.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/ElMessiri-Regular.woff') format('woff'), 
+  url('fonts/ElMessiri-Regular.ttf')  format('truetype'), 
+  url('fonts/ElMessiri-Regular.svg#ElMessiri-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ElMessiri-SemiBold';
+  src: url('fonts/ElMessiri-SemiBold.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/ElMessiri-SemiBold.woff') format('woff'), 
+  url('fonts/ElMessiri-SemiBold.ttf')  format('truetype'), 
+  url('fonts/ElMessiri-SemiBold.svg#ElMessiri-SemiBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* fin de la el_messiri */
+
+
+
+/* début de la catamaran */
+
+@font-face {
+  font-family: 'Catamaran-Black';
+  src: url('fonts/Catamaran/Catamaran-Black.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Catamaran/Catamaran-Black.woff') format('woff'), 
+  url('fonts/Catamaran/Catamaran-Black.ttf')  format('truetype'), 
+  url('fonts/Catamaran/Catamaran-Black.svg#Catamaran-Black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran-Bold';
+  src: url('fonts/Catamaran/Catamaran-Bold.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Catamaran/Catamaran-Bold.woff') format('woff'), 
+  url('fonts/Catamaran/Catamaran-Bold.ttf')  format('truetype'), 
+  url('fonts/Catamaran/Catamaran-Bold.svg#Catamaran-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran-ExtraBold';
+  src: url('fonts/Catamaran/Catamaran-ExtraBold.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Catamaran/Catamaran-ExtraBold.woff') format('woff'), 
+  url('fonts/Catamaran/Catamaran-ExtraBold.ttf')  format('truetype'), 
+  url('fonts/Catamaran/Catamaran-ExtraBold.svg#Catamaran-ExtraBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran-ExtraLight';
+  src: url('fonts/Catamaran-ExtraLight.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Catamaran/Catamaran-ExtraLight.woff') format('woff'), 
+  url('fonts/Catamaran/Catamaran-ExtraLight.ttf')  format('truetype'), 
+  url('fonts/Catamaran/Catamaran-ExtraLight.svg#Catamaran-ExtraLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran-Light';
+  src: url('fonts/Catamaran-Light.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Catamaran/Catamaran-Light.woff') format('woff'), 
+  url('fonts/Catamaran/Catamaran-Light.ttf')  format('truetype'), 
+  url('fonts/Catamaran/Catamaran-Light.svg#Catamaran-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran-Medium';
+  src: url('fonts/Catamaran/Catamaran-Medium.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Catamaran/Catamaran-Medium.woff') format('woff'), 
+  url('fonts/Catamaran/Catamaran-Medium.ttf')  format('truetype'), 
+  url('fonts/Catamaran/Catamaran-Medium.svg#Catamaran-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran-Regular';
+  src: url('fonts/Catamaran/Catamaran-Regular.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Catamaran/Catamaran-Regular.woff') format('woff'), 
+  url('fonts/Catamaran/Catamaran-Regular.ttf')  format('truetype'), 
+  url('fonts/Catamaran/Catamaran-Regular.svg#Catamaran-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran-SemiBold';
+  src: url('fonts/Catamaran/Catamaran-SemiBold.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Catamaran/Catamaran-SemiBold.woff') format('woff'), 
+  url('fonts/Catamaran/Catamaran-SemiBold.ttf')  format('truetype'), 
+  url('fonts/Catamaran/Catamaran-SemiBold.svg#Catamaran-SemiBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Catamaran-Thin';
+  src: url('fonts/Catamaran/Catamaran-Thin.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Catamaran/Catamaran-Thin.woff') format('woff'), 
+  url('fonts/Catamaran/Catamaran-Thin.ttf')  format('truetype'), 
+  url('fonts/Catamaran/Catamaran-Thin.svg#Catamaran-Thin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* fin de la catamaran */
+
+
+
+/* début de la playfairdisplay*/
+@font-face {
+    font-family: 'playfair_displayitalic';
+    src: url('fonts/playfairdisplay-italic-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playfair_displayblack';
+    src: url('fonts/playfairdisplay/playfairdisplay-black-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay/playfairdisplay-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playfair_displayblack_italic';
+    src: url('fonts/playfairdisplay/playfairdisplay-blackitalic-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay/playfairdisplay-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair_displaybold';
+    src: url('fonts/playfairdisplay/playfairdisplay-bold-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay/playfairdisplay-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playfair_displaybold_italic';
+    src: url('fonts/playfairdisplay/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay/playfairdisplay-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'playfair_displayitalic';
+    src: url('fonts/playfairdisplay/playfairdisplay-italic-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay/playfairdisplay-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('fonts/playfairdisplay/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay/playfairdisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* fin de la playfairdisplay */
+
+
+
+/* début de la trirong */
+
+@font-face {
+  font-family: 'Trirong-Black';
+  src: url('fonts/Trirong-Black.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Trirong-Black.woff') format('woff'), 
+  url('fonts/Trirong-Black.ttf')  format('truetype'), 
+  url('fonts/Trirong-Black.svg#Trirong-Black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-BlackItalic';
+  src: url('fonts/Trirong-BlackItalic.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Trirong-BlackItalic.woff') format('woff'),
+  url('fonts/Trirong-BlackItalic.ttf')  format('truetype'), 
+  url('fonts/Trirong-BlackItalic.svg#Trirong-BlackItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-Bold';
+  src: url('fonts/Trirong-Bold.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Trirong-Bold.woff') format('woff'), 
+  url('fonts/Trirong-Bold.ttf')  format('truetype'), 
+  url('fonts/Trirong-Bold.svg#Trirong-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-BoldItalic';
+  src: url('fonts/Trirong-BoldItalic.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Trirong-BoldItalic.woff') format('woff'), 
+  url('fonts/Trirong-BoldItalic.ttf')  format('truetype'), 
+  url('fonts/Trirong-BoldItalic.svg#Trirong-BoldItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Trirong-ExtraBold';
+  src: url('fonts/Trirong-ExtraBold.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Trirong-ExtraBold.woff') format('woff'), 
+  url('fonts/Trirong-ExtraBold.ttf')  format('truetype'), 
+  url('fonts/Trirong-ExtraBold.svg#Trirong-ExtraBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Trirong-ExtraBoldItalic';
+  src: url('fonts/Trirong-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Trirong-ExtraBoldItalic.woff') format('woff'), 
+  url('fonts/Trirong-ExtraBoldItalic.ttf')  format('truetype'), 
+  url('fonts/Trirong-ExtraBoldItalic.svg#Trirong-ExtraBoldItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-ExtraLight';
+  src: url('fonts/Trirong-ExtraLight.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Trirong-ExtraLight.woff') format('woff'), 
+  url('fonts/Trirong-ExtraLight.ttf')  format('truetype'), 
+  url('fonts/Trirong-ExtraLight.svg#Trirong-ExtraLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-ExtraLightItalic';
+  src: url('fonts/Trirong-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Trirong-ExtraLightItalic.woff') format('woff'), 
+  url('fonts/Trirong-ExtraLightItalic.ttf')  format('truetype'), 
+  url('fonts/Trirong-ExtraLightItalic.svg#Trirong-ExtraLightItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-Italic';
+  src: url('fonts/Trirong-Italic.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Trirong-Italic.woff') format('woff'), 
+  url('fonts/Trirong-Italic.ttf')  format('truetype'), 
+  url('fonts/Trirong-Italic.svg#Trirong-Italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-Light';
+  src: url('fonts/Trirong-Light.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Trirong-Light.woff') format('woff'), 
+  url('fonts/Trirong-Light.ttf')  format('truetype'), 
+  url('fonts/Trirong-Light.svg#Trirong-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-LightItalic';
+  src: url('fonts/Trirong-LightItalic.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Trirong-LightItalic.woff') format('woff'), 
+  url('fonts/Trirong-LightItalic.ttf')  format('truetype'), 
+  url('fonts/Trirong-LightItalic.svg#Trirong-LightItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-Medium';
+  src: url('fonts/Trirong-Medium.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Trirong-Medium.woff') format('woff'), 
+  url('fonts/Trirong-Medium.ttf')  format('truetype'), 
+  url('fonts/Trirong-Medium.svg#Trirong-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-MediumItalic';
+  src: url('fonts/Trirong-MediumItalic.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Trirong-MediumItalic.woff') format('woff'), 
+  url('fonts/Trirong-MediumItalic.ttf')  format('truetype'), 
+  url('fonts/Trirong-MediumItalic.svg#Trirong-MediumItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-Regular';
+  src: url('fonts/Trirong-Regular.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Trirong-Regular.woff') format('woff'), 
+  url('fonts/Trirong-Regular.ttf')  format('truetype'), 
+  url('fonts/Trirong-Regular.svg#Trirong-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-SemiBold';
+  src: url('fonts/Trirong-SemiBold.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Trirong-SemiBold.woff') format('woff'), 
+  url('fonts/Trirong-SemiBold.ttf')  format('truetype'), 
+  url('fonts/Trirong-SemiBold.svg#Trirong-SemiBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-SemiBoldItalic';
+  src: url('fonts/Trirong-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Trirong-SemiBoldItalic.woff') format('woff'), 
+  url('fonts/Trirong-SemiBoldItalic.ttf')  format('truetype'), 
+  url('fonts/Trirong-SemiBoldItalic.svg#Trirong-SemiBoldItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-Thin';
+  src: url('fonts/Trirong-Thin.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Trirong-Thin.woff') format('woff'), 
+  url('fonts/Trirong-Thin.ttf')  format('truetype'), 
+  url('fonts/Trirong-Thin.svg#Trirong-Thin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trirong-ThinItalic';
+  src: url('fonts/Trirong-ThinItalic.eot?#iefix') format('embedded-opentype'),  
+  url('fonts/Trirong-ThinItalic.woff') format('woff'), 
+  url('fonts/Trirong-ThinItalic.ttf')  format('truetype'), 
+  url('fonts/Trirong-ThinItalic.svg#Trirong-ThinItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* fin de la trirong */
+
+
+* {
+  border-size: border-box; }
+
+body { 
+  cursor: crosshair;
+  }
+
+
+
+.Font1 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:white;
+}
+
+.Font1_1 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:yellow;
+}
+
+.Font1_2 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:white;
+}
+
+.Font1_3 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:blue;
+}
+
+.Font2 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:white;
+}
+
+.Font2_1 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:yellow;
+}
+
+.Font2_2 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:white;
+}
+
+.Font2_3 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:blue;
+}
+
+.Font3 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:white;
+}
+
+.Font3_1 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:yellow;
+}
+
+.Font3_2 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:white;
+}
+
+.Font3_3 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:blue;
+}
+
+.Font4 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:white;
+}
+
+.Font4_1 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:yellow;
+}
+
+.Font4_2 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:white;
+}
+
+.Font4_3 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:blue;
+}
+
+.Font4_4 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:blue;
+}
+
+.Font5 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:red;
+}
+
+.Font5_1 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:white;
+}
+
+.Font5_2 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:red;
+}
+
+.Font5_3 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:blue;
+}
+
+.Font5_4 a{ 
+  outline: 0;
+  text-decoration: none;
+  color:blue;
+}
+
+.Font1 a:hover {
+  color: blue;
+  outline:0; 
+}
+
+.Font1_1 a:hover {
+  color: white;
+  outline:0; 
+}
+
+.Font1_2 a:hover {
+  color: blue;
+  outline:0; 
+}
+
+.Font1_3 a:hover {
+  color: yellow;
+  outline:0; 
+}
+
+.Font2 a:hover{
+  color: yellow;
+  outline:0; 
+}
+
+.Font2_1 a:hover {
+  color: white;
+  outline:0; 
+}
+
+.Font2_2 a:hover {
+  color: blue;
+  outline:0; 
+}
+
+.Font2_3 a:hover {
+  color: black;
+  outline:0; 
+}
+
+.Font3 a:hover {
+  color: red;
+  outline:0; 
+}
+
+.Font3_1 a:hover {
+  color: white;
+  outline:0; 
+}
+
+.Font3_2 a:hover {
+  color: blue;
+  outline:0; 
+}
+
+.Font3_3 a:hover {
+  color: black;
+  outline:0; 
+}
+
+
+
+.Font4 a:hover {
+  color: blue;
+  outline:0; 
+}
+
+.Font4_1 a:hover {
+  color: white;
+  outline:0; 
+}
+
+.Font4_2 a:hover {
+  color: blue;
+  outline:0; 
+}
+
+.Font4_3 a:hover {
+  color: black;
+  outline:0; 
+}
+
+.Font4_4 a:hover {
+  color: black;
+  outline:0; 
+}
+
+.Font5 {
+  color: yellow;
+  outline:0; 
+}
+
+.Font5_1 a:hover {
+  color: black;
+  outline:0; 
+}
+
+.Font5_2 a:hover {
+  color: blue;
+  outline:0; 
+}
+
+.Font5_3 a:hover {
+  color: black;
+  outline:0; 
+}
+
+.Font5_4 a:hover {
+  color: black;
+  outline:0; 
+}
+
+.Font1 {
+ width: 100%;
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ text-align: center;
+ font-size: 120pt;
+ line-height: 130pt;
+ z-index:1;
+ font-family:'Trirong-Regular';
+}
+
+.Font1_1 {
+ width: 100%;
+ position: absolute;
+ top: 220px;
+ text-align: left;
+ margin-left: 60px;
+ font-size: 120pt;
+ line-height: 130pt;
+ z-index:1;
+ font-family:'Trirong-Italic';
+}
+
+.Font1_2 {
+ width: 100%;
+ position: absolute;
+ top: 380px;
+margin-left: 280px;
+ font-size: 120pt;
+ line-height: 130pt;
+ z-index:1;
+ font-family:'Trirong-Bold';
+}
+
+.Font1_3 {
+ width: 100%;
+ position: absolute;
+ top: 600px;
+margin-left: 740px;
+ font-size: 120pt;
+ line-height: 130pt;
+ z-index:1;
+ font-family:'Trirong-Bold';
+}
+
+
+.Font2 {
+ width: 100%;
+ position: absolute;
+ left: 400px;
+ top:21px;
+ text-align: left;
+ font-size: 90pt;
+ line-height: 180pt;
+ z-index:1;
+ font-family:'playfair_displayitalic';
+}
+
+.Font2_1 {
+ width: 100%;
+ position: absolute;
+ top: 200px;
+ text-align: left;
+ margin-left: 60px;
+ font-size: 120pt;
+ line-height: 130pt;
+ z-index:1;
+ font-family:'playfair_displayblack';
+}
+
+.Font2_2 {
+ width: 100%;
+ position: absolute;
+ top: 370px;
+margin-left: 260px;
+ font-size: 120pt;
+ line-height: 130pt;
+ z-index:1;
+ font-family:'playfair_displayregular';
+}
+
+.Font2_3 {
+ width: 100%;
+ position: absolute;
+ top: 600px;
+margin-left: 40px;
+ font-size: 120pt;
+ line-height: 130pt;
+ z-index:1;
+ font-family:'playfair_displaybold';
+}
+
+.Font3 {
+ width: 100%;
+ position: absolute;
+ left: 204px;
+ text-align: center;
+ font-size: 120pt;
+ line-height: 160pt;
+ z-index:1;
+ font-family:'ElMessiri-Regular';
+}
+
+.Font3_1 {
+ width: 100%;
+ position: absolute;
+ top: 210px;
+ text-align: left;
+ margin-left: 60px;
+ font-size: 80pt;
+ line-height: 130pt;
+ z-index:1;
+ font-family:'ElMessiri-SemiBold';
+}
+
+.Font3_2 {
+ width: 100%;
+ position: absolute;
+ top: 370px;
+margin-left: 860px;
+ font-size: 120pt;
+ line-height: 160pt;
+ z-index:1;
+ font-family:'ElMessiri-Medium';
+}
+
+.Font3_3 {
+ width: 100%;
+ position: absolute;
+ top: 570px;
+margin-left: 330px;
+ font-size: 110pt;
+ line-height: 130pt;
+ z-index:10;
+ font-family:'ElMessiri-Bold';
+}
+
+
+.Font4 {
+ width: 100%;
+ position: absolute;
+ margin-left: -80px;
+ text-align: center;
+ font-size: 150pt;
+ line-height: 160pt;
+ z-index:1;
+ font-family:'Catamaran-Medium';
+}
+
+.Font4_1 {
+ width: 100%;
+ position: absolute;
+ top: 210px;
+ text-align: left;
+ margin-left: 60px;
+ font-size: 80pt;
+ line-height: 110pt;
+ z-index:1;
+ font-family:'Catamaran-Black';
+}
+
+.Font4_2 {
+ width: 100%;
+ position: absolute;
+ top: 377px;
+margin-left: 170px;
+ font-size: 200pt;
+ line-height: 160pt;
+ z-index:1;
+ font-family:'Catamaran-Thin';
+}
+
+.Font4_3 {
+ width: 100%;
+ position: absolute;
+ top: 560px;
+margin-left: 650px;
+ font-size: 110pt;
+ line-height: 130pt;
+ z-index:10;
+ font-family:'Catamaran-Regular';
+}
+
+.Font4_4 {
+width: 100%;
+ position: absolute;
+ margin-left: 425px;
+ text-align: center;
+ font-size: 80pt;
+ line-height: 150pt;
+ z-index:1;
+ font-family:'Catamaran-Medium';;
+}
+
+
+.Font5 {
+ width: 100%;
+ position: absolute;
+ margin-left: -80px;
+ text-align: center;
+ font-size: 150pt;
+ line-height: 160pt;
+ z-index:1;
+ font-family:'Trirong-Medium';
+}
+
+.Font5_1 {
+ width: 100%;
+ position: absolute;
+ top: 210px;
+ text-align: left;
+ margin-left: 560px;
+ font-size: 80pt;
+ line-height: 110pt;
+ z-index:1;
+ font-family:'playfair_displayitalic';
+}
+
+.Font5_2 {
+ width: 100%;
+ position: absolute;
+ top: 377px;
+margin-left: 125px;
+ font-size: 150pt;
+ line-height: 160pt;
+ z-index:1;
+ font-family:'ElMessiri-SemiBold';
+}
+
+.Font5_3 {
+ width: 100%;
+ position: absolute;
+ top: 570px;
+margin-left: 650px;
+ font-size: 110pt;
+ line-height: 130pt;
+ z-index:10;
+ font-family:'Catamaran-Thin';
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  height: 760px;
+   }
+
+.tour {
+  position: relative;
+  perspective: 50em;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  overflow: hidden; }
+  .tour ol {
+    list-style: none;
+    position: absolute;
+    bottom: 5px;
+    width: 50%;
+    padding: 0px;
+    margin: 0 25%;
+    text-align: center; }
+    .tour ol li {
+      width: 7px;
+      height: 7px;
+      display: inline-block;
+      border-radius: 50%;
+      position: relative;
+      z-index: 999;
+      cursor: pointer; }
+    .tour ol li:after {
+      content: '';
+      pointer-events: none;
+      transition: all .3s ease-in-out;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 7px;
+      height: 7px;
+      transform: scale(0) translate(-50%, -50%);
+      transform-origin: 0% 0%;
+      display: inline-block;
+      border-radius: 50%;
+      background: white; }
+    .tour ol li.active:after {
+      transform: scale(1) translate(-50%, -50%); }
+  .tour .tour-inner {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+    .tour .tour-inner .itemsliding {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      left: 0%;
+      transition: transform 0.6s ease-in-out;
+      display: none; }
+      .tour .tour-inner .itemsliding img {
+        width: 100%;
+        height: 100%; }
+      .tour .tour-inner .itemsliding .tour-caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 65%;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 20px;
+        color: white;
+        transform: translate(-50%, -50%); }
+        .tour .tour-inner .itemsliding .tour-caption h2 {
+          font-weight: bold; }
+    .tour .tour-inner .prevleftsliding {
+      display: block;
+      transform: translate3d(100%, 0, 0); }
+    .tour .tour-inner .nextleftsliding {
+      display: block;
+      transform: translate3d(-100%, 0, 0); }
+    .tour .tour-inner .prevrightsliding {
+      display: block;
+      transform: translate3d(-100%, 0, 0); }
+    .tour .tour-inner .nextrightsliding {
+      display: block;
+      transform: translate3d(100%, 0, 0); }
+    .tour .tour-inner .active {
+      display: block;
+      transform: translate3d(0%, 0, 0); }
+    .tour .tour-inner .itemrolling {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      left: 0%;
+      opacity: 1;
+      transition: transform 0.5s, opacity 0.6s;
+      transform: rotateX(-90deg);
+      transform-origin: bottom center;
+      display: none; }
+      .tour .tour-inner .itemrolling img {
+        width: 100%;
+        height: 100%; }
+      .tour .tour-inner .itemrolling .tour-caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 65%;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 20px;
+        color: white;
+        transform: translate(-50%, -50%); }
+        .tour .tour-inner .itemrolling .tour-caption h2 {
+          font-weight: bold; }
+    .tour .tour-inner .prevleftrolling {
+      display: block;
+      transform-origin: top center;
+      transform: rotateX(-90deg);
+      opacity: 0; }
+    .tour .tour-inner .nextleftrolling {
+      display: block;
+      transform-origin: bottom center;
+      transform: rotateX(90deg);
+      opacity: 1; }
+    .tour .tour-inner .prevrightrolling {
+      display: block;
+      transform-origin: bottom center;
+      transform: rotateX(90deg);
+      opacity: 0; }
+    .tour .tour-inner .nextrightrolling {
+      display: block;
+      transform-origin: top center;
+      transform: rotateX(-90deg);
+      opacity: 1; }
+    .tour .tour-inner .active {
+      display: block;
+      transform: rotateX(0deg); }
+    .tour .tour-inner .itemfading {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      left: 0%;
+      transition: opacity 0.6s ease-in-out;
+      display: none;
+      opacity: 1; }
+      .tour .tour-inner .itemfading img {
+        width: 100%;
+        height: 100%; }
+      .tour .tour-inner .itemfading .tour-caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 65%;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 20px;
+        color: white;
+        transform: translate(-50%, -50%); }
+        .tour .tour-inner .itemfading .tour-caption h2 {
+          font-weight: bold; }
+    .tour .tour-inner .prevleftfading, .tour .tour-inner .prevrightfading {
+      display: block;
+      opacity: 0; }
+    .tour .tour-inner .nextleftfading, .tour .tour-inner .nextrightfading {
+      display: block;
+      opacity: 0; }
+    .tour .tour-inner .active {
+      display: block;
+      opacity: 1; }
+  .tour a.tour-control {
+    position: absolute;
+    top: 0;
+    right: 85%;
+    bottom: 0;
+    left: 0;
+    display: block;
+    text-decoration: none;
+    cursor: pointer; }
+    .tour a.tour-control span {
+      pointer-events: none;
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: center; }
+      .tour a.tour-control span i {
+        font-size: 40px;
+        color: transparent }
+    .tour a.tour-control {
+      background: none; }
+      .tour a.tour-controli {
+        color: transparent; }
+  .tour a.tour-control.right {
+    right: 0%;
+    left: 85%; }
+  .tour a.tour-control.right {
+    background: none; }
+    .tour a.tour-control.right i {
+      color: transparent; }
+  .tour .timeLine {
+    position: absolute;
+    height: 3px;
+    background: red;
+    top: 0px;
+    left: 0px;
+    right: 100%; }
+  .tour .animate {
+    animation-name: timeLine;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0, 0, 0.05, 0.85); }
+@keyframes timeLine {
+  0% {
+    background: none;
+    right: 100%; }
+  100% {
+    background: none;
+    right: 0%; } }
+
+/*# sourceMappingURL=tour.css.map */

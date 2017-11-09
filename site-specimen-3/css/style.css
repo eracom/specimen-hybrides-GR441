@@ -1,0 +1,144 @@
+/* réinitialisations de base, ne pas toucher */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+header h1{
+  text-align: center;
+  position: relative;
+  z-index: 100;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white; 
+  margin-top: 50px;
+}
+
+.titre{
+  font-family: 'aileronthin';
+}
+
+a, a:link, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+    cursor: crosshair;
+} 
+a:hover{
+  color: hotpink;
+}
+
+.bloc-autour {
+  margin-top: 100px;
+}
+.bloc-lettre {
+  width: 20%;
+  height: 20vw; 
+  font-size: 18vw;
+  font-weight: bold;
+  font-family: sans-serif;
+  float: left;
+  text-align: center;
+}
+.bloc-lettre p {
+  margin-top: 20px;
+}
+.Cooper { 
+  font-family: 'cooper_hewittsemibold';
+}
+
+.AILERON { 
+  font-family: 'aileronthin';
+  font-size: 20vw;
+}
+
+.butcherman_regular { 
+  font-family: 'butchermanregular';
+}
+
+.league_gothicitalic { 
+  font-family: 'league_gothicitalic';
+  font-size: 20vw;
+}
+
+.limelightregular { 
+  font-family: 'limelightregular';
+  font-size: 20vw;
+}
+
+.paperwork_blackregular { 
+  font-family: 'paperwork_blackregular';
+  font-size: 23vw;
+}
+
+.plasterregular { 
+  font-family: 'plasterregular';
+  font-size: 20vw;
+}
+
+.press_start_2pregular { 
+  font-family: 'press_start_2pregular';
+  font-size: 18vw;
+}
+
+.ultraregular { 
+  font-family: 'ultraregular';
+  font-size: 20vw;
+}
+
+.unifrakturcookbold { 
+  font-family: 'unifrakturcookbold';
+}
+
+
+/* RESPONSIVE */
+
+/* ÉCRAN SEULEMENT */
+@media screen {
+    .print-only {
+        display: none;
+    }
+}
+
+/* ÉCRAN (VALEURS MINIMUM) */
+@media screen and (min-width: 480px) {
+
+}
+/* ÉCRAN (VALEURS MAXIMUM) */
+@media screen and (max-width: 480px) {
+    .titre {
+        color: red;
+    }
+}
+
+/* IMPRESSION */
+
+@media print {
+    .titre {
+        color: green;
+    }
+    .screen-only {
+        display: none;
+    }
+}
+
+@page {
+    size: 210mm 297mm;
+    margin: none;
+}

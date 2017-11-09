@@ -1,0 +1,79 @@
+<!-- http://dribbble.com/shots/225872-Colour-Sliders -->
+<!-- <!DOCTYPE html> -->
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>Love Letters</title>
+    <link rel="stylesheet" href="arabic.css">
+    <link rel="stylesheet" href="scripts/jquery-ui.css">
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/jquery-1.9.1.js"></script>
+    <script src="scripts/jquery-ui-1.9.2.custom.js"></script>
+    <script src="scripts/jquery-ui.js"></script>
+    <script src="scripts/slider.js"></script>
+  </head>
+  <body>
+
+      <div class="outils">
+          <div class="outil-bold">BOLD</div>
+          <div class="outil-italic">ITALIC</div>
+          <div class="">INTERLETTRAGE</div>
+          <div class="outil-1px">1px</div>
+          <div class="outil-2px">2px</div>
+        <!--SIZE SLIDER-->
+            <div class="fontTester selector">
+                <div class="slider">
+                    <div class="mySlider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><span class="ui-slider-handle ui-state-default ui-corner-all ui-state-focus" tabindex="0" style="left: 14.0704%;"></span></div>
+                </div>
+            </div>
+        <!-- FIN SIZE SLIDER -->
+        <!--SIZE SLIDER--><!--
+            <div class="fontTester selector">
+                <div class="slider">
+                    <div class="mySecondSlider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><span class="ui-slider-handle ui-state-default ui-corner-all ui-state-focus" tabindex="0" style="left: 14.0704%;"></span></div>
+                </div>
+            </div>-->
+        <!-- FIN SIZE SLIDER -->
+    </div><!-- FIN OUTILS -->
+    <div class="poster">
+        <textarea class="containerSlider case-grille glissable textarea-1" spellcheck="false">فوق</textarea>
+        <textarea class="containerSlider case-grille glissable textarea-2" spellcheck="false">المسيري هي عائلة من الأحرف العربية الحديثة التي صممها محمد جابر، الذي بدأ مع اللاتينية جوفاني ليموناد والفيلسوف السيريلية. عمل محمد جابر لأول مرة على الخط العربي المنحني المستوحى من جمال خط النشخ كما لو أنه تم رسمه بفرشاة بدلا من قلم الخيزران التقليدي. وقد اتخذت الفكرة شكل بالتعاون مع العديد من العدادات التي تحسن من قراءة النصوص في حجم صغير، ولكن أيضا على تفاصيل أكثر دقة مما يجعلها أفضل على الشاشة في حجم كبير. حاليا المسيري متاح في 4 الدهون (الضوء، منتظم، سيمبولد وجريئة) والمحتوى العربي يحتوي على مجموعة كبيرة من الحروف التي تدعم العربية والفارسية والأردية.</textarea>
+        <textarea class="containerSlider case-grille glissable textarea-3" spellcheck="false">K</textarea>
+        <textarea class="containerSlider case-grille glissable textarea-4" spellcheck="false">المسيري هي عائلة من الأحرف العربية الحديثة التي صممها محمد جابر، الذي بدأ مع اللاتينية جوفاني ليموناد والفيلسوف السيريلية. عمل محمد جابر لأول مرة على الخط العربي المنحني المستوحى من جمال خط النشخ كما لو أنه تم رسمه بفرشاة بدلا من قلم الخيزران التقليدي. وقد اتخذت الفكرة شكل بالتعاون مع العديد من العدادات التي تحسن من قراءة النصوص في حجم صغير، ولكن أيضا على تفاصيل أكثر دقة مما يجعلها أفضل على الشاشة في حجم كبير. حاليا المسيري متاح في 4 الدهون (الضوء، منتظم، سيمبولد وجريئة) والمحتوى العربي يحتوي على مجموعة كبيرة من الحروف التي تدعم العربية والفارسية والأردية.</textarea>
+        <textarea class="containerSlider case-grille glissable textarea-5" spellcheck="false">Bold</textarea>
+        <textarea class="containerSlider case-grille glissable textarea-6" spellcheck="false">SemiBold</textarea>
+        <textarea class="containerSlider case-grille glissable textarea-7" spellcheck="false">Medium</textarea>
+        <textarea class="containerSlider case-grille glissable textarea-8" spellcheck="false">Regular</textarea>
+        <textarea class="containerSlider case-grille glissable textarea-9" spellcheck="false">المسيري هي عائلة من الأحرف العربية الحديثة التي صممها محمد جابر، الذي بدأ مع اللاتينية جوفاني ليموناد والفيلسوف السيريلية. عمل محمد جابر لأول مرة على الخط العربي المنحني المستوحى من جمال خط النشخ كما لو أنه تم رسمه بفرشاة بدلا من قلم الخيزران التقليدي. وقد اتخذت الفكرة شكل بالتعاون مع العديد من العدادات التي تحسن من قراءة النصوص في حجم صغير، ولكن أيضا على تفاصيل أكثر دقة مما يجعلها أفضل على الشاشة في حجم كبير. حاليا المسيري متاح في 4 الدهون (الضوء، منتظم، سيمبولد وجريئة) والمحتوى العربي يحتوي على مجموعة كبيرة من الحروف التي تدعم العربية والفارسية والأردية.</textarea>
+        
+    </div>
+    <div class="poster2">
+        
+    </div>
+   
+
+        <script>
+            $( ".glissable" ).draggable();
+            /*$('.outils').hide();*/
+            $('.case-grille').click(function() {
+                $('.clicked').removeClass('clicked');
+                $(this).addClass('clicked');
+                /*$('.outils').show();*/
+            });
+            $('.outil-bold').click(function() {
+                $('.clicked').css('font-weight', 'bold');
+            });
+            $('.outil-italic').click(function() {
+                $('.clicked').css('font-style', 'italic');
+            });
+            $('.outil-1px').click(function() {
+                $('.clicked').css('letter-spacing', '1px');
+            });
+            $('.outil-2px').click(function() {
+                $('.clicked').css('letter-spacing', '2px');
+            });
+        </script>
+
+
+</body>
+</html>

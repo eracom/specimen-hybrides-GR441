@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="UTF-8">
+	<title>SPECIMEN HOME</title>
+	<link rel="stylesheet" type="text/css" href="layout.css"/>
+	<script src="jquery-1.11.3.js" type="text/javascript"></script> <!--script-->
+	<script src="script.js" type="text/javascript"> </script>
+	</head>
+
+<body>
+
+<div class="conteneur">
+	<div class="menu-top">
+<b><font color="ff4f00"> Home </font></b>
+</div>
+   
+<a href="#" id="black">Black</a>
+<a href="#" id="white">White</a>
+<a href="#" id="blue">Blue</a>
+
+<!-- A DISPLAY-->
+
+
+<div style="position: absolute; top: 199px; left: 560px;">
+<div class="displayhome boite-a">
+	<a class="click-me">a</a>
+</div>
+
+<ul class="menu-liste">
+		<h3>
+		<li><a href="display.html">Display</a></li>
+		</h3>
+	</ul>
+</div>
+
+<!-- A MONOSPACE-->
+
+<div style="position: absolute; top: 280px; left: 60px;">
+<div class="monospace boite-a">
+	<a class="click-me">a</a>
+</div>
+
+<ul class="menu-liste">
+		<h3>
+		<li><a href="monospace.html">Monospace</a></li>
+		</h3>
+	</ul>
+</div>
+
+
+<!--FANTAISIE-->
+
+
+<div style="position: absolute; top: 50px; left: 880px;">
+<div class="fantaisie boite-a">
+	<a class="click-me">a</a>
+</div>
+
+<ul class="menu-liste">
+		<h3>
+		<li><a href="fantasy.html">Fantasy</a></li>
+		</h3>
+	</ul>
+</div>
+
+
+
+<!--SANS SERIF-->
+
+
+<div style="position: absolute; top: 330px; left: 1180px;">
+<div class="sansserif boite-a">
+	<a class="click-me">a</a>
+</div>
+
+<ul class="menu-liste">
+		<h3>
+		<li><a href="sansserif.html">Sans Serif</a></li>
+		</h3>
+	</ul>
+</div>
+
+<!--SERIF-->
+
+
+<div style="position: absolute; top: 10px; left: 350px;">
+<div class="serif boite-a">
+	<a class="click-me">a</a>
+</div>
+
+<ul class="menu-liste">
+		<h3>
+		<li><a href="serif.html">Serif</a></li>
+		</h3>
+	</ul>
+</div>
+
+
+
+
+</div><!-- fin conteneur -->
+
+<script>
+    $('.menu-liste').hide();
+	$('.click-me').click(function() {
+	    $('.menu-liste').hide();
+	    $(this).parent('.boite-a').siblings('.menu-liste').show();
+	});
+</script>
+<script>
+$(document).ready(function(){
+		$('#black').click(function(){
+			$('body').css("background-color","black");
+			$('.boite-a a').css("color","white");
+			$('.menu-liste a').css("color","white");
+		});
+		$('#white').click(function(){
+			$('body').css("background-color","white");
+			$('.menu-liste a').css("color","black");
+		});
+		$('#blue').click(function(){
+			$('body').css("background-color","#0066FF");
+		});
+	});
+</script>
+
+
+</body>
+</html>

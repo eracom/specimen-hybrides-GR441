@@ -1,0 +1,1348 @@
+/* réinitialisations de base, ne pas toucher */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    page-break-inside:avoid;
+}
+
+
+/* liens vers la typo */
+
+
+body {
+    font-family: 'helvetica';
+
+}
+
+
+
+@font-face {
+    font-family: 'plasterregular';
+    src: url('fonts/plaster-regular-webfont.woff2') format('woff2'),
+         url('fonts/plaster-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'monoton.ttf';
+    src: url('fonts/monoton-regular-webfont.woff2') format('woff2'),
+         url('fonts/monoton-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'EmblemaOne-Regular.ttf';
+    src: url('fonts/emblemaone-regular-webfont.woff2') format('woff2'),
+         url('fonts/emblemaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FasterOne-Regular.ttf';
+    src: url('fonts/fasterone-regular-webfont.woff2') format('woff2'),
+         url('fonts/fasterone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'BungeeHairline-Regular.ttf';
+    src: url('fonts/bungeehairline-regular-webfont.woff2') format('woff2'),
+         url('fonts/bungeehairline-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AbrilFatface-Regular.otf';
+    src: url('fonts/abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('fonts/abrilfatface-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'NovaCut.ttf';
+    src: url('fonts/novacut-webfont.woff2') format('woff2'),
+         url('fonts/novacut-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GeostarFill-Regular.ttf';
+    src: url('fonts/geostarfill-regular-webfont.woff2') format('woff2'),
+         url('fonts/geostarfill-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nanook.otf';
+    src: url('fonts/nanook-webfont.woff2') format('woff2'),
+         url('fonts/nanook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FrederickatheGreat-Regular.ttf';
+    src: url('fonts/frederickathegreat-regular-webfont.woff2') format('woff2'),
+         url('fonts/frederickathegreat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Fascinate-Regular.otf';
+    src: url('fonts/fascinate-regular-webfont.woff2') format('woff2'),
+         url('fonts/fascinate-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Righteous-Regular.ttf';
+    src: url('fonts/righteous-regular-webfont.woff2') format('woff2'),
+         url('fonts/righteous-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Bangers-Regular.ttf';
+    src: url('fonts/bangers-regular_2-webfont.woff2') format('woff2'),
+         url('fonts/bangers-regular_2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TitanOne-Regular.ttf';
+    src: url('fonts/titanone-regular-webfont.woff2') format('woff2'),
+         url('fonts/titanone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'EricaOne-Regular.ttf';
+    src: url('fonts/ericaone-regular-webfont.woff2') format('woff2'),
+         url('fonts/ericaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+}
+@font-face {
+    font-family: 'ContrailOne-Regular.ttf';
+    src: url('fonts/contrailone-regular-webfont.woff2') format('woff2'),
+         url('fonts/contrailone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'YoungSerif-Regular.otf';
+    src: url('fonts/youngserif-regular-webfont.woff2') format('woff2'),
+         url('fonts/youngserif-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CormorantUnicase-Regular.ttf';
+    src: url('fonts/cormorantunicase-regular-webfont.woff2') format('woff2'),
+         url('fonts/cormorantunicase-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Play-Regular.ttf';
+    src: url('fonts/play-regular-webfont.woff2') format('woff2'),
+         url('fonts/play-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Monoxil.otf';
+    src: url('fonts/monoxil_2-webfont.woff2') format('woff2'),
+         url('fonts/monoxil_2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PoiretOne-Regular.ttf';
+    src: url('fonts/poiretone-regular-webfont.woff2') format('woff2'),
+         url('fonts/poiretone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Montchauve.otf';
+    src: url('fonts/montchauve-webfont.woff2') format('woff2'),
+         url('fonts/montchauve-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SirinStencil-Regular.ttf';
+    src: url('fonts/sirinstencil-regular-webfont.woff2') format('woff2'),
+         url('fonts/sirinstencil-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Ubuntu-Regular.ttf';
+    src: url('fonts/ubuntu-regular-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Astloch-Regular.ttf';
+    src: url('fonts/astloch-regular-webfont.woff2') format('woff2'),
+         url('fonts/astloch-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Helvetia Verbundene.ttf';
+    src: url('fonts/helvetia_verbundene-webfont.woff2') format('woff2'),
+         url('fonts/helvetia_verbundene-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'KaushanScript-Regular.otf';
+    src: url('fonts/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('fonts/kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'QumpellkaNo12.otf';
+    src: url('fonts/qumpellkano12-webfont.woff2') format('woff2'),
+         url('fonts/qumpellkano12-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'UnifrakturMaguntia.ttf';
+    src: url('fonts/unifrakturmaguntia-webfont.woff2') format('woff2'),
+         url('fonts/unifrakturmaguntia-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Exo-Regular.ttf';
+    src: url('fonts/exo-regular-webfont.woff2') format('woff2'),
+         url('fonts/exo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LobsterTwo-Regular.ttf';
+    src: url('fonts/lobstertwo-regular-webfont.woff2') format('woff2'),
+         url('fonts/lobstertwo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Arbutus-Regular.ttf';
+    src: url('fonts/arbutus-regular-webfont.woff2') format('woff2'),
+         url('fonts/arbutus-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BluuNext-Bold.otf';
+    src: url('fonts/bluunext-bold-webfont.woff2') format('woff2'),
+         url('fonts/bluunext-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Arvo-Regular.ttf';
+    src: url('fonts/arvo-regular-webfont.woff2') format('woff2'),
+         url('fonts/arvo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'autobahn_simon.ttf';
+    src: url('fonts/autobahn_simon-webfont.woff2') format('woff2'),
+         url('fonts/autobahn_simon-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'NovaCut.ttf';
+    src: url('fonts/novacut-webfont.woff2') format('woff2'),
+         url('fonts/novacut-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Bagnard.otf';
+    src: url('fonts/bagnard-webfont.woff2') format('woff2'),
+         url('fonts/bagnard-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'PressStart2P-Regular.ttf';
+    src: url('fonts/pressstart2p-regular-webfont.woff2') format('woff2'),
+         url('fonts/pressstart2p-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Play-Regular.ttf';
+    src: url('fonts/play-regular-webfont.woff2') format('woff2'),
+         url('fonts/play-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'NovaFlat.ttf';
+    src: url('fonts/novaflat-webfont.woff2') format('woff2'),
+         url('fonts/novaflat-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Oswald-Regular.ttf';
+    src: url('fonts/oswald-regular-webfont.woff2') format('woff2'),
+         url('fonts/oswald-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Iceberg-Regular.ttf';
+    src: url('fonts/iceberg-regular-webfont.woff2') format('woff2'),
+         url('fonts/iceberg-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.play {
+    font-family: 'Play-Regular.ttf';
+    font-size: 90px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+
+}
+
+.iceberg {
+    font-family: 'Iceberg-Regular.ttf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+
+}
+
+.oswald {
+      font-family: 'Oswald-Regular.ttf';
+      font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+
+}
+
+.novaflat {
+    font-family: 'NovaFlat.ttf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+
+}
+
+.autobahn {
+    font-family: 'autobahn_simon.ttf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.arvo {
+    font-family: 'Arvo-Regular.ttf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.geostar {
+    font-family: 'GeostarFill-Regular.ttf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.fascinate {
+    font-family: 'Fascinate-Regular.otf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.bluu {
+    font-family: 'BluuNext-Bold.otf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+.arbutus {
+    font-family: 'Arbutus-Regular.ttf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.lobstertwo {
+    font-family: 'LobsterTwo-Regular.ttf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.exo {
+    font-family: 'Exo-Regular.ttf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.unifraktur {
+    font-family: 'UnifrakturMaguntia.ttf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.qumpellka {
+    font-family: 'QumpellkaNo12.otf';
+    font-size: 65px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.kaushan {
+    font-family: 'KaushanScript-Regular.otf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.helvetia {
+    font-family: 'Helvetia Verbundene.ttf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.astloch {
+    font-family: 'Astloch-Regular.ttf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.ubuntu {
+    font-family: 'Ubuntu-Regular.ttf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.sirin {
+    font-family: 'SirinStencil-Regular.ttf';
+     font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.montchauve {
+    font-family: 'Montchauve.otf';
+     font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.poiretone {
+    font-family: 'PoiretOne-Regular.ttf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.monoxil {
+    font-family: 'Monoxil.otf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+
+.fredericka {
+    font-family: 'FrederickatheGreat-Regular.ttf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.playfair {
+    font-family: 'PlayfairDisplay-Regular.ttf';
+     font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.cormorant {
+    font-family: 'CormorantUnicase-Regular.ttf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.young {
+    font-family: 'YoungSerif-Regular.otf';
+    font-size: 65px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.nanook {
+     font-family: 'nanook.otf';
+     font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+
+.novacut {
+    font-family: 'NovaCut.ttf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.bangers {
+     font-family: 'Bangers-Regular.ttf';
+     font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.titanone {
+    font-family: 'TitanOne-Regular.ttf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.contrailone {
+    font-family: 'ContrailOne-Regular.ttf';
+    font-size: 60px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.ericaone {
+    font-family: 'EricaOne-Regular.ttf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.righteous {
+    font-family: 'Righteous-Regular.ttf';
+    font-size: 60px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.abril {
+    font-family: 'AbrilFatface-Regular.otf';
+    font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.bungee {
+    font-family: 'BungeeHairline-Regular.ttf';
+    font-size: 60px;
+    margin-top:40px;
+    margin-left:10px;
+    margin-bottom: 40px
+}
+.faster {
+     font-family: 'FasterOne-Regular.ttf';
+     font-size: 70px;
+     margin-top:40px;
+     margin-left:10px;
+     margin-bottom: 40px
+}
+
+.emblemaone {
+
+    font-family: 'EmblemaOne-Regular.ttf';
+    font-size: 70px;
+    margin-top:40px;
+    margin-left:10px;
+    margin-bottom: 40px
+}
+
+
+.plaster {
+    font-family: 'plasterregular';
+    font-size: 60px;
+    margin-top:40px;
+    margin-left:10px;
+    margin-bottom: 40px
+}
+.monoton {
+ font-family: 'monoton.ttf';
+   font-size: 60px;
+    margin-top:30px;
+    margin-left:10px;
+    margin-bottom: 40px
+}
+
+.pressstart {
+    font-family: 'PressStart2P-Regular.ttf';
+    font-size: 40px;
+    margin-top:40px;
+    margin-left:10px;
+    margin-bottom: 40px
+
+}
+.bagnard {
+    font-family: 'Bagnard.otf';
+    font-size: 70px;
+    margin-top:40px;
+    margin-left:10px;
+    margin-bottom: 40px
+
+}
+.play {
+    font-family: 'Play-Regular.ttf';
+    font-size: 70px;
+    margin-top:40px;
+    margin-left:10px;
+    margin-bottom: 40px;
+
+}
+
+.titre {
+    height: 20vh;
+    text-align: right;
+    margin-right: 50px;
+    padding-top: 6vh;
+    font-size: 10px;
+    color:red
+
+}
+
+.wrapper2 {
+    height: 20vh;
+    overflow: hidden;
+    position: relative;
+    animation: reduce 25s linear infinite running;
+
+}
+
+
+.div2 {
+    margin-top: -50px;
+    height:20vh;
+    background-color: white;
+    white-space: nowrap;
+    display: inline-block;
+    animation: scroll 70s linear infinite running;
+
+}
+
+.wrapper2:hover, .wrapper2:hover .div2 {
+    animation-play-state: paused;
+
+
+}
+
+
+#carrousel{
+
+    position:relative;
+
+    height:200px;
+
+    width:700px;
+
+    margin:auto;
+
+}
+
+#carrousel ul li{
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+}
+
+
+
+
+@keyframes reduce {
+    to {
+        padding-left:0;
+    }
+}
+@keyframes scroll {
+    to {
+        transform:translateX(-100%);
+    }
+}
+.main-typo {
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+.project {
+    width: 100%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 0px;
+}
+.project img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hover-arrow:hover {
+    cursor: url("images/arrow.png"), auto;
+}
+.cycle-slideshow {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+.cycle-slideshow span {
+    display: table-cell;
+    vertical-align: middle;
+    height: 60vh;
+    width: 100%;
+    margin: auto;
+}
+.hidden {
+    display: none;
+}
+.your-class {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+
+.ferme-moi {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 7px;
+    display: inline-block;
+}
+#print-button {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 7px;
+    display: inline-block;
+}
+.project {
+    margin-top: 18px;
+}
+
+
+
+
+.specimen-plaster {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+.specimen-faster {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+.specimen-geostar {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+.specimen-arbutus {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+.specimen-ubuntu {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+.specimen-righteous {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+.specimen-bangers {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+.specimen-monoton {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+.specimen-bungee {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+.specimen-bluu {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+.specimen-arvo {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+.specimen-autobahn {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+.specimen-oswald {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+.specimen-novaflat {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+.specimen-iceberg {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+.specimen-bagnard {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+.specimen-pressstart {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+
+.specimen-titanone {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+.specimen-ericaone {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+.specimen-abril {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+
+.specimen-emblemaone {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+.specimen-novacut {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+.specimen-young {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+ .specimen-cormorant {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+ .specimen-nanook {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+ .specimen-playfair {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+ .specimen-monoxil {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+ .specimen-poiretone {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+ .specimen-montchauve {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+ .specimen-sirin {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+ .specimen-astloch {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+ .specimen-helvetia {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+ .specimen-kaushan {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+ .specimen-qumpellka {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+ .specimen-unifraktur {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+ .specimen-exo {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+ .specimen-fascinate {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+ .specimen-lobstertwo {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    z-index: 1000;
+    border: 2px solid black;
+}
+
+
+/* RESPONSIVE */
+
+/* ÉCRAN SEULEMENT */
+@media screen {
+    .print-only {
+        display: none;
+    }
+}
+
+
+@media print {
+    .titre {
+        color: green;
+    }
+    .screen-only {
+        display: none;
+    }
+    .project img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.titre {
+    visibility: hidden
+}
+.div2, .wrapper2 {
+    visibility: hidden
+}
+
+.specimen {
+    width: 100%;
+    height:100%;
+    margin-left: -330px;
+    border: none;
+
+}
+.a {
+    visibility: hidden
+}
+#print-button {
+    visibility: hidden;
+}
+
+.ferme-moi {
+    visibility: hidden
+}
+
+}
+
+@page {
+    size: 210mm 297mm;
+    margin: none;
+}
