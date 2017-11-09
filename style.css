@@ -281,10 +281,10 @@ body {
 
 .fontaisie {
     width: 700px;
-    border: 3px solid black;
-    rotation:;
+    border-bottom: 6px solid black;
+    padding: 30px 0;
     position: absolute;
-    top: 435px;
+    top: 405px;
     animation: anim7 7s linear infinite alternate;
 }
 .fontaisie:hover {
@@ -306,9 +306,10 @@ body {
 
 .fontaisie2 {
     width: 700px;
-    border: 3px solid black;
+    border-bottom: 6px solid black;
+    padding: 30px 0;
     position: absolute;
-    top: 480px;
+    top: 450px;
     animation: anim8 8s linear infinite alternate;
 }
 .fontaisie2:hover {
@@ -332,9 +333,10 @@ body {
 
 .fontaisie3 {
     width: 700px;
-    border: 3px solid black;
+    border-bottom: 6px solid black;
+    padding: 30px 0;
     position: absolute;
-    top: 344px;
+    top: 314px;
     animation: anim9 8s linear infinite alternate;
 }
 .fontaisie3:hover {
@@ -358,9 +360,10 @@ body {
 
 .fontaisie4 {
     width: 700px;
-    border: 3px solid black;
+    border-bottom: 6px solid black;
+    padding: 30px 0;
     position: absolute;
-    top: 387px;
+    top: 357px;
     animation: anim10 10s linear infinite alternate;
 }
 .fontaisie4:hover {
